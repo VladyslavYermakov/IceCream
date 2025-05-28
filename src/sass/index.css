@@ -1,1 +1,59 @@
+<<<<<<< HEAD
 @import '~node_modules/modern-normalize/modern-normalize.css';/*# sourceMappingURL=index.css.map */
+=======
+@import '~node_modules/modern-normalize/modern-normalize.css';
+:root {
+  --red: #D41443;
+  --white: #ffffff;
+  --background: #FFF5F6;
+  --pink: #FFB8CA;
+  --bgpink: #FFA5BA;
+  --text: #000000;
+  --secondtext: #907E82;
+  --lime: #C2E297;
+  --coffee: #F0D1A5;
+}
+
+h1, h2, h3, p, ul, li, input, button, img, a, body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.container {
+  margin: 0 auto;
+  width: 320px;
+  padding: 0px 15px;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .container {
+    width: 768px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}/*# sourceMappingURL=index.css.map */
+>>>>>>> 3770ddaeb0a827d059b95dc15a56e279185654c5
