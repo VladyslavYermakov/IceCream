@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-@import '~node_modules/modern-normalize/modern-normalize.css';/*# sourceMappingURL=index.css.map */
-=======
 @import '~node_modules/modern-normalize/modern-normalize.css';
 :root {
   --red: #D41443;
@@ -56,4 +53,3 @@ ul, li {
     width: 1200px;
   }
 }/*# sourceMappingURL=index.css.map */
->>>>>>> 3770ddaeb0a827d059b95dc15a56e279185654c5
