@@ -1,0 +1,61 @@
+.hero{
+    background-color:#FFB8CA;
+}
+.hero-ice-title{
+color: white;
+font-family: "Titan One",sans-serif;
+font-weight: 400;
+font-size: 26px;
+line-height: 100%;
+letter-spacing: 4%;
+text-transform: uppercase;
+margin-bottom: 19px;
+}
+.hero-passion{
+color: #D41443;
+font-family: "Titan One",sans-serif;
+font-weight: 400;
+font-size: 48px;
+line-height: 96%;
+letter-spacing: 0%;
+text-transform: uppercase;
+}
+.hero-btn-list{
+    display: flex;
+    padding-bottom: 160px;
+}
+.hero-ice-btn{
+color: white;
+padding: 8px 16px;
+border: none;
+border-radius: 20px;
+font-family: "DM Sans",sans-serif;
+font-weight: 400;
+font-size: 8px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+background-color: #D41443;
+margin-right: 8px;
+}
+.hero-ice-btntwo{
+color:#D41443;
+padding: 9px 17px;
+border: none;
+border-radius: 20px;
+font-family: "DM Sans",sans-serif;
+font-weight: 400;
+font-size: 8px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+background-color: white; 
+}
+.hero-num-list{
+    display: none;
+}
+.hero-milk{
+    display: none;
+}
