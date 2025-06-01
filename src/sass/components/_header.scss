@@ -1,4 +1,8 @@
 
+.header{
+    background-color:#FFB8CA;
+
+}
 .header-list {
 display: none;
 }
@@ -16,4 +20,12 @@ vertical-align: middle;
 .header-logo{
 width: 199px;
 height: 50px;
+}
+.header-btn{
+display: none;
+}
+.header-burger-opn{
+    position: relative;
+    left: 58px;
+    bottom: 17px;
 }

@@ -55,6 +55,10 @@ ul, li {
   }
 }
 
+.header {
+  background-color: #FFB8CA;
+}
+
 .header-list {
   display: none;
 }
@@ -72,4 +76,14 @@ ul, li {
 .header-logo {
   width: 199px;
   height: 50px;
+}
+
+.header-btn {
+  display: none;
+}
+
+.header-burger-opn {
+  position: relative;
+  left: 58px;
+  bottom: 17px;
 }/*# sourceMappingURL=index.css.map */
