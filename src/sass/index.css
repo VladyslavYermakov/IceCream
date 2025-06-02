@@ -189,4 +189,18 @@ ul, li {
 
 .hero-milk {
   display: none;
+}
+
+.gallery {
+  width: 364px;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .gallery {
+    width: 786px;
+  }
+}
+@media (min-width: 1200px) {
+  .gallery {
+    width: 1280px;
+  }
 }/*# sourceMappingURL=index.css.map */
