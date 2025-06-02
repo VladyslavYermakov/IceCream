@@ -1,7 +1,10 @@
 
 .header{
-    background-color:#FFB8CA;
-
+position: absolute;
+top: 0;
+left: 50%;
+transform:translateX(-50%);
+z-index: 1;
 }
 .header-list {
 display: none;

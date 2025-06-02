@@ -1,17 +1,44 @@
+
 .hero{
     background-color:#FFB8CA;
+    position: relative;
+    padding-top: 193px;
+    padding-bottom: 160px;
+}
+.hero-back-img{
+    position: absolute;
+    left: 38%;
+    bottom: 2px;
+    z-index: 2;
+    width: 171px;
+height: 410px;
+}
+.hero-circle-imgphone{
+    position: absolute;
+      left: 15.8%;
+    bottom: 45px;
+    width: 315px;
+height: 378px;
+}
+.hero-ice-txt{
+    margin-bottom: 19px;
 }
 .hero-ice-title{
+    position: relative;
+z-index: 3;
 color: white;
 font-family: "Titan One",sans-serif;
 font-weight: 400;
 font-size: 26px;
-line-height: 100%;
+line-height: 1.15;
 letter-spacing: 4%;
 text-transform: uppercase;
-margin-bottom: 19px;
+letter-spacing: .04em;
+width: 218px;
 }
 .hero-passion{
+position: relative;
+z-index: 3;
 color: #D41443;
 font-family: "Titan One",sans-serif;
 font-weight: 400;
@@ -22,11 +49,12 @@ text-transform: uppercase;
 }
 .hero-btn-list{
     display: flex;
-    padding-bottom: 160px;
+    position: relative;
+    z-index: 3;
 }
 .hero-ice-btn{
 color: white;
-padding: 8px 16px;
+padding: 10px 16px;
 border: none;
 border-radius: 20px;
 font-family: "DM Sans",sans-serif;
@@ -41,7 +69,7 @@ margin-right: 8px;
 }
 .hero-ice-btntwo{
 color:#D41443;
-padding: 9px 17px;
+padding: 10px 17px;
 border: none;
 border-radius: 20px;
 font-family: "DM Sans",sans-serif;
