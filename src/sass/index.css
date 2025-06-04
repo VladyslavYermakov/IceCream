@@ -182,6 +182,20 @@ ul, li {
   }
 }
 
+.hero-giiirl-tablet {
+  display: none;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .hero-giiirl-tablet {
+    display: flex;
+    position: absolute;
+    width: 168px;
+    height: 133px;
+    left: 580px;
+    top: 266px;
+  }
+}
+
 @media (min-width: 768px) and (max-width: 1199px) {
   .hero-ice {
     position: relative;
@@ -291,6 +305,7 @@ ul, li {
   .hero-milk {
     display: flex;
     position: relative;
+    padding-bottom: 28px;
   }
 }
 
@@ -344,6 +359,13 @@ ul, li {
 @media (min-width: 768px) and (max-width: 1199px) {
   .hero-num-item {
     margin-bottom: 12px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .hero-milk-btn {
+    margin-bottom: 12px;
+    color: #D41443;
   }
 }
 
