@@ -1,7 +1,7 @@
 
 .header{
 position: absolute;
-top: 0;
+top: 0px;
 left: 50%;
 transform:translateX(-50%);
 z-index: 1;
@@ -23,12 +23,38 @@ vertical-align: middle;
 .header-logo{
 width: 199px;
 height: 50px;
+  @media (min-width: 768px) and (max-width: 1199px) {
+        width: 170px;
+height: 40px;
+    }
 }
 .header-btn{
 display: none;
+  @media (min-width: 768px) and (max-width: 1199px) {
+       display: flex;
+       position: relative;
+       left: 570px;
+       bottom: 43px;
+       font-family: "DM Sans",sans-serif;
+font-weight: 700;
+font-size: 13px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+color: #D41443;
+padding: 8px 27px;
+background-color: white;
+border-radius: 22px;
+    }
 }
 .header-burger-opn{
     position: relative;
     left: 58px;
     bottom: 17px;
+     @media (min-width: 768px) and (max-width: 1199px) {
+        position: relative;
+    left: 300px;
+    bottom: 19px;
+    }
 }

@@ -57,7 +57,7 @@ ul, li {
 
 .header {
   position: absolute;
-  top: 0;
+  top: 0px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 1;
@@ -81,9 +81,34 @@ ul, li {
   width: 199px;
   height: 50px;
 }
+@media (min-width: 768px) and (max-width: 1199px) {
+  .header-logo {
+    width: 170px;
+    height: 40px;
+  }
+}
 
 .header-btn {
   display: none;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .header-btn {
+    display: flex;
+    position: relative;
+    left: 570px;
+    bottom: 43px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: #D41443;
+    padding: 8px 27px;
+    background-color: white;
+    border-radius: 22px;
+  }
 }
 
 .header-burger-opn {
@@ -91,12 +116,25 @@ ul, li {
   left: 58px;
   bottom: 17px;
 }
+@media (min-width: 768px) and (max-width: 1199px) {
+  .header-burger-opn {
+    position: relative;
+    left: 300px;
+    bottom: 19px;
+  }
+}
 
 .hero {
   background-color: #FFB8CA;
   position: relative;
   padding-top: 193px;
   padding-bottom: 160px;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .hero {
+    padding-bottom: 0;
+    padding-top: 0;
+  }
 }
 
 .hero-back-img {
@@ -107,6 +145,15 @@ ul, li {
   width: 171px;
   height: 410px;
 }
+@media (min-width: 768px) and (max-width: 1199px) {
+  .hero-back-img {
+    display: flex;
+    position: absolute;
+    width: 143px;
+    height: 336px;
+    transform: translateX(70%);
+  }
+}
 
 .hero-circle-imgphone {
   position: absolute;
@@ -114,6 +161,32 @@ ul, li {
   bottom: 45px;
   width: 315px;
   height: 378px;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .hero-circle-imgphone {
+    display: none;
+  }
+}
+
+.hero-circle-imbtablet {
+  display: none;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .hero-circle-imbtablet {
+    display: flex;
+    position: absolute;
+    width: 324px;
+    height: 322px;
+    transform: translateX(95%);
+    bottom: 36px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .hero-ice {
+    position: relative;
+    top: 80px;
+  }
 }
 
 .hero-ice-txt {
@@ -133,6 +206,11 @@ ul, li {
   letter-spacing: 0.04em;
   width: 218px;
 }
+@media (min-width: 768px) and (max-width: 1199px) {
+  .hero-ice-title {
+    font-size: 24px;
+  }
+}
 
 .hero-passion {
   position: relative;
@@ -144,6 +222,16 @@ ul, li {
   line-height: 96%;
   letter-spacing: 0%;
   text-transform: uppercase;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .hero-passion {
+    font-family: "Titan One", sans-serif;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 90%;
+    letter-spacing: 4%;
+    margin-bottom: 20px;
+  }
 }
 
 .hero-btn-list {
@@ -186,9 +274,77 @@ ul, li {
 .hero-num-list {
   display: none;
 }
+@media (min-width: 768px) and (max-width: 1199px) {
+  .hero-num-list {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 48px;
+    margin-right: 34px;
+  }
+}
 
 .hero-milk {
   display: none;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .hero-milk {
+    display: flex;
+    position: relative;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .hero-milk-txt {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: white;
+    position: relative;
+    top: 48px;
+    right: 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .hero-milk-img {
+    width: 124px;
+    height: 126px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .hero-num-txt {
+    font-family: "Titan One", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 4%;
+    text-align: right;
+    text-transform: uppercase;
+    color: #D41443;
+    margin-bottom: 5px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .hero-num-p {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: right;
+    color: white;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .hero-num-item {
+    margin-bottom: 12px;
+  }
 }
 
 .gallery {
