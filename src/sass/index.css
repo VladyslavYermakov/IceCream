@@ -381,4 +381,82 @@ ul, li {
   .gallery {
     width: 1280px;
   }
+}
+
+.testimonial-slider {
+  max-width: 600px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 8px;
+  position: relative;
+}
+
+.slides-container {
+  position: relative;
+  min-height: 200px;
+  overflow: hidden;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.slide.active {
+  position: relative;
+  opacity: 1;
+}
+
+.testimonial-text {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 47px;
+  margin-top: 62px;
+  font-style: italic;
+}
+
+.author {
+  text-align: center;
+  font-weight: bold;
+  color: #555;
+  margin-top: 15px;
+}
+
+.slider-nav {
+  text-align: center;
+}
+
+.dots {
+  color: red;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #D9D9D9;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dot.active {
+  background-color: #D31342;
+}
+
+.girl {
+  display: block;
+  border-radius: 44px;
+  justify-self: center;
 }/*# sourceMappingURL=index.css.map */
