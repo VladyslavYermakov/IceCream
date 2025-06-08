@@ -1,0 +1,148 @@
+.location {
+  background: #fff5f6;
+  padding: 120px 0;
+
+  .container {
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .location-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+
+    .location-item {
+      background-color: #fff;
+      border-radius: 24px;
+      padding: 40px;
+      max-width: 330px;
+      box-shadow: 0px 8px 30px 0px rgba(212, 20, 67, 0.1);
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      font-family: 'DM Sans';
+
+      .location-type {
+        font-family: 'DM Sans';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 186%;
+        letter-spacing: 4%;
+        text-align: center;
+        display: inline-block;
+        padding: 4px 12px;
+        border-radius: 4px;
+        margin-bottom: 10px;
+
+        .location-type-cafe {
+          background-color: rgba(255, 255, 255, 1);
+          color: #f0d1a5;
+        }
+
+        .location-type-foodtruck {
+          background-color: rgba(255, 255, 255, 1);
+          color: #c2e297;
+        }
+      }
+
+      .location-city {
+        font-family: 'DM Sans';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 186%;
+        letter-spacing: 4%;
+        background: rgba(0, 0, 0, 1);
+      }
+
+      .location-city p {
+        color: rgba(144, 126, 130, 1);
+
+        .location-time-title {
+          color: rgba(0, 0, 0, 1);
+        }
+
+        .location-time {
+          font-family: DM Sans;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 186%;
+          letter-spacing: 0%;
+          color: rgba(255, 165, 186, 1);
+        }
+      }
+
+      .location-contact {
+        margin-top: 20px;
+        border-top: 1px solid #fff;
+        padding-top: 16px;
+        font-family: DM Sans;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 183%;
+        letter-spacing: 0%;
+
+        p {
+          font-size: 14px;
+          color: rgba(144, 126, 130, 1);
+        }
+      }
+    }
+  }
+
+  .location-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+
+    .btn-ourlocation {
+      background-color: rgba(212, 19, 66, 1);
+      color: rgba(255, 255, 255, 1);
+      border: 2px solid rgba(255, 255, 255, 1);
+      font-family: 'DM Sans';
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 100%;
+      letter-spacing: 0%;
+      text-align: center;
+      vertical-align: middle;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+
+      span {
+        margin-left: 6px;
+        font-weight: 700;
+      }
+    }
+
+    .btn-francheese {
+      background-color: rgba(255, 255, 255, 1);
+      color: rgba(212, 20, 67, 1);
+      border: 2px solid rgba(212, 20, 67, 1);
+      font-weight: 700;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 50px;
+      font-family: DM Sans;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 100%;
+      letter-spacing: 0%;
+      text-align: center;
+      vertical-align: middle;
+
+      cursor: pointer;
+      box-shadow: 0px 4px 20px rgba(236, 77, 115, 0.1);
+
+      span {
+        margin-left: 6px;
+        font-weight: 700;
+      }
+    }
+  }
+}
