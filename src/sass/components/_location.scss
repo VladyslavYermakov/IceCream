@@ -2,12 +2,6 @@
   background: #fff5f6;
   padding: 120px 0;
 
-  .container {
-    max-width: 1160px;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
-
   .location-list {
     display: flex;
     justify-content: center;
@@ -16,10 +10,11 @@
     margin-bottom: 40px;
 
     .location-item {
+      width: 330px;
+      height: 572px;
       background-color: #fff;
       border-radius: 24px;
       padding: 40px;
-      max-width: 330px;
       box-shadow: 0px 8px 30px 0px rgba(212, 20, 67, 0.1);
       display: flex;
       flex-direction: column;
@@ -27,67 +22,66 @@
       font-family: 'DM Sans';
 
       .location-type {
-        font-family: 'DM Sans';
         font-weight: 500;
         font-size: 16px;
-        line-height: 186%;
-        letter-spacing: 4%;
+        line-height: 1.86;
+        letter-spacing: 0.04em;
         text-align: center;
         display: inline-block;
         padding: 4px 12px;
-        border-radius: 4px;
+        border-radius: 6px;
         margin-bottom: 10px;
 
-        .location-type-cafe {
-          background-color: rgba(255, 255, 255, 1);
-          color: #f0d1a5;
+        &.type-cafe {
+          background-color: #fff;
+          color: rgba(240, 209, 165, 1);
         }
 
-        .location-type-foodtruck {
-          background-color: rgba(255, 255, 255, 1);
-          color: #c2e297;
+        &.type-foodtruck {
+          background-color: #fff;
+          color: rgba(194, 226, 151, 1);
         }
       }
 
       .location-city {
-        font-family: 'DM Sans';
         font-weight: 500;
         font-size: 16px;
-        line-height: 186%;
-        letter-spacing: 4%;
-        background: rgba(0, 0, 0, 1);
+        line-height: 1.86;
+        letter-spacing: 0.04em;
+        color: #000;
       }
 
-      .location-city p {
-        color: rgba(144, 126, 130, 1);
+      p {
+        font-size: 14px;
+        color: #907e82;
+        margin: 0;
 
-        .location-time-title {
-          color: rgba(0, 0, 0, 1);
+        &.time-title {
+          color: #000;
+          font-weight: 700;
+          margin-top: 10px;
         }
 
-        .location-time {
-          font-family: DM Sans;
+        &.time {
           font-weight: 500;
           font-size: 16px;
-          line-height: 186%;
-          letter-spacing: 0%;
-          color: rgba(255, 165, 186, 1);
+          line-height: 1.86;
+          color: #ffa5ba;
         }
       }
 
       .location-contact {
-        margin-top: 20px;
-        border-top: 1px solid #fff;
+        margin-top: auto;
+        border-top: 1px solid #e1e1e1;
         padding-top: 16px;
-        font-family: DM Sans;
         font-weight: 500;
         font-size: 16px;
-        line-height: 183%;
-        letter-spacing: 0%;
+        line-height: 1.83;
 
         p {
           font-size: 14px;
-          color: rgba(144, 126, 130, 1);
+          color: #907e82;
+          margin-bottom: 4px;
         }
       }
     }
@@ -99,20 +93,17 @@
     gap: 15px;
 
     .btn-ourlocation {
-      background-color: rgba(212, 19, 66, 1);
-      color: rgba(255, 255, 255, 1);
-      border: 2px solid rgba(255, 255, 255, 1);
-      font-family: 'DM Sans';
+      background-color: #d41342;
+      color: #fff;
+      font-family: 'DM Sans', sans-serif;
       font-weight: 700;
       font-size: 16px;
-      line-height: 100%;
-      letter-spacing: 0%;
-      text-align: center;
-      vertical-align: middle;
       padding: 12px 24px;
-      border: none;
       border-radius: 50px;
+      border: none;
       cursor: pointer;
+      display: flex;
+      align-items: center;
 
       span {
         margin-left: 6px;
@@ -121,23 +112,18 @@
     }
 
     .btn-francheese {
-      background-color: rgba(255, 255, 255, 1);
-      color: rgba(212, 20, 67, 1);
-      border: 2px solid rgba(212, 20, 67, 1);
-      font-weight: 700;
-      padding: 12px 24px;
-      border: none;
-      border-radius: 50px;
-      font-family: DM Sans;
+      background-color: #fff;
+      color: #d41443;
+      border: 2px solid #d41443;
+      font-family: 'DM Sans', sans-serif;
       font-weight: 700;
       font-size: 16px;
-      line-height: 100%;
-      letter-spacing: 0%;
-      text-align: center;
-      vertical-align: middle;
-
+      padding: 12px 24px;
+      border-radius: 50px;
       cursor: pointer;
       box-shadow: 0px 4px 20px rgba(236, 77, 115, 0.1);
+      display: flex;
+      align-items: center;
 
       span {
         margin-left: 6px;
