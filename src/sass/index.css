@@ -119,8 +119,8 @@ ul, li {
 @media (min-width: 768px) and (max-width: 1199px) {
   .header-burger-opn {
     position: relative;
-    left: 300px;
-    bottom: 19px;
+    left: 524px;
+    bottom: 65px;
   }
 }
 
