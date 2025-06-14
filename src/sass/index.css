@@ -1017,7 +1017,7 @@ ul, li {
 .footer .footer-left {
   margin-bottom: 43px;
 }
-.footer .footer-left .footer-subtitle {
+.footer .footer-left .footer-title {
   font-family: "Titan One";
   font-weight: 400;
   font-size: 18px;
@@ -1027,13 +1027,13 @@ ul, li {
   color: rgb(255, 165, 186);
 }
 @media (min-width: 768px) and (max-width: 1280px) {
-  .footer .footer-left .footer-subtitle {
+  .footer .footer-left .footer-title {
     margin: 10px 0;
     font-size: 30px;
     letter-spacing: 4%;
   }
 }
-.footer .footer-left .footer-title {
+.footer .footer-left .footer-subtitle {
   font-family: "Titan One";
   font-weight: 400;
   font-size: 34px;
@@ -1043,7 +1043,7 @@ ul, li {
   color: rgb(212, 20, 67);
 }
 @media (min-width: 768px) and (max-width: 1280px) {
-  .footer .footer-left .footer-title {
+  .footer .footer-left .footer-subtitle {
     margin: 10px 0;
     font-size: 58px;
     letter-spacing: 6%;
