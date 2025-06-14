@@ -954,19 +954,18 @@ ul, li {
   flex-direction: column;
   gap: 12px;
   align-items: center;
-  list-style: none;
-  padding: 0;
 }
 @media (min-width: 768px) {
   .location .location-buttons {
     flex-direction: row;
     justify-content: center;
     gap: 16px;
-    width: 161.45px;
-    height: 44px;
   }
 }
-.location .location-buttons-button {
+
+.btn-ourlocation {
+  background-color: #d41342;
+  color: #fff;
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
   font-size: 14px;
@@ -974,21 +973,21 @@ ul, li {
   border-radius: 20px;
   border: none;
   cursor: pointer;
-  display: flex;
-  align-items: center;
-  gap: 8px;
   transition: background-color 0.3s ease;
-}
-
-.btn-ourlocation {
-  background-color: #d41342;
-  color: #fff;
 }
 
 .btn-franchise {
   background-color: #fff;
   color: #d41443;
   border: 1px solid #d41443;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 12px 24px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .btn-span {
