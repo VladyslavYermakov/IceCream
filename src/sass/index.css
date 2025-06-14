@@ -861,7 +861,8 @@ ul, li {
 }
 @media (min-width: 768px) {
   .location .location-item {
-    width: 100%;
+    width: 330px;
+    height: 572px;
   }
 }
 .location .location-item .location-type {
@@ -967,7 +968,7 @@ ul, li {
     flex-direction: row;
     justify-content: center;
     gap: 16px;
-    width: 161.450378418px;
+    width: 161.45px;
     height: 44px;
   }
 }
