@@ -833,131 +833,137 @@ ul, li {
   background-color: #C7133E;
 }
 
-.location {
-  background-color: #fff5f6;
-  padding: 120px 0;
+@media (min-width: 1200px) {
+  .location {
+    background-color: #fff5f6;
+    padding: 120px 0;
+  }
+  .location .location-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0;
+    list-style: none;
+  }
 }
-.location .location-list {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  padding: 0;
-  list-style: none;
-}
-@media (min-width: 768px) {
+@media (min-width: 1200px) and (min-width: 768px) {
   .location .location-list {
     flex-direction: row;
     justify-content: space-between;
     gap: 32px;
   }
 }
-.location .location-item {
-  background-color: white;
-  border-radius: 24px;
-  padding: 50px 20px;
-  box-shadow: 0px 8px 30px 0px rgba(212, 20, 67, 0.1);
-  font-family: "DM Sans", sans-serif;
-  text-align: left;
+@media (min-width: 1200px) {
+  .location .location-item {
+    background-color: white;
+    border-radius: 24px;
+    padding: 50px 20px;
+    box-shadow: 0px 8px 30px 0px rgba(212, 20, 67, 0.1);
+    font-family: "DM Sans", sans-serif;
+    text-align: left;
+  }
+  .location .location-item .location-type {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: white;
+    padding: 4px 12px;
+    border-radius: 6px;
+    display: inline-block;
+    margin-bottom: 20px;
+    line-height: 186%;
+    letter-spacing: 4%;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .location .location-item .location-type-cafe {
+    font-family: "DM Sans";
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 186%;
+    letter-spacing: 4%;
+    text-align: left;
+    align-items: middle;
+    color: #fff;
+    background-color: rgb(240, 209, 165);
+  }
+  .location .location-item .location-type-foodtrack {
+    font-family: "DM Sans";
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 186%;
+    letter-spacing: 4%;
+    text-align: left;
+    vertical-align: middle;
+    color: #fff;
+    background-color: rgb(194, 226, 151);
+  }
+  .location .location-item .location-city {
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 186%;
+    letter-spacing: 4%;
+    color: rgb(0, 0, 0);
+    margin-bottom: 12px;
+  }
+  .location .location-item .location-text p {
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: rgb(144, 126, 130);
+    margin-bottom: 8px;
+  }
+  .location .location-item .time-title {
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 186%;
+    letter-spacing: 0%;
+    color: rgb(0, 0, 0);
+    margin-top: 16px;
+    margin-bottom: 4px;
+  }
+  .location .location-item .time {
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 186%;
+    letter-spacing: 0%;
+    color: rgb(255, 165, 186);
+    margin: 0;
+  }
+  .location .location-item .location-contact {
+    margin-top: 24px;
+    border-top: 1px solid #e1e1e1;
+    padding-top: 16px;
+  }
+  .location .location-item .location-contact-text {
+    color: rgb(144, 126, 130);
+    margin: 0;
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+  }
 }
-.location .location-item .location-type {
-  font-family: "DM Sans", sans-serif;
-  font-weight: 500;
-  font-size: 12px;
-  color: white;
-  padding: 4px 12px;
-  border-radius: 6px;
-  display: inline-block;
-  margin-bottom: 20px;
-  line-height: 186%;
-  letter-spacing: 4%;
-  text-align: center;
-  vertical-align: middle;
+@media (min-width: 1200px) {
+  .location .location-buttons {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+  }
 }
-.location .location-item .location-type-cafe {
-  font-family: "DM Sans";
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 186%;
-  letter-spacing: 4%;
-  text-align: left;
-  align-items: middle;
-  color: #fff;
-  background-color: rgb(240, 209, 165);
-}
-.location .location-item .location-type-foodtrack {
-  font-family: "DM Sans";
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 186%;
-  letter-spacing: 4%;
-  text-align: left;
-  vertical-align: middle;
-  color: #fff;
-  background-color: rgb(194, 226, 151);
-}
-.location .location-item .location-city {
-  font-family: DM Sans;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 186%;
-  letter-spacing: 4%;
-  color: rgb(0, 0, 0);
-  margin-bottom: 12px;
-}
-.location .location-item .location-text p {
-  font-family: DM Sans;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 18px;
-  letter-spacing: 0%;
-  color: rgb(144, 126, 130);
-  margin-bottom: 8px;
-}
-.location .location-item .time-title {
-  font-family: DM Sans;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 186%;
-  letter-spacing: 0%;
-  color: rgb(0, 0, 0);
-  margin-top: 16px;
-  margin-bottom: 4px;
-}
-.location .location-item .time {
-  font-family: DM Sans;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 186%;
-  letter-spacing: 0%;
-  color: rgb(255, 165, 186);
-  margin: 0;
-}
-.location .location-item .location-contact {
-  margin-top: 24px;
-  border-top: 1px solid #e1e1e1;
-  padding-top: 16px;
-}
-.location .location-item .location-contact-text {
-  color: rgb(144, 126, 130);
-  margin: 0;
-  font-family: DM Sans;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 100%;
-  letter-spacing: 0%;
-  text-align: center;
-  vertical-align: middle;
-}
-.location .location-buttons {
-  margin-top: 40px;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  align-items: center;
-  list-style: none;
-  padding: 0;
-}
-@media (min-width: 768px) {
+@media (min-width: 1200px) and (min-width: 768px) {
   .location .location-buttons {
     flex-direction: row;
     justify-content: center;
@@ -966,32 +972,33 @@ ul, li {
     height: 44px;
   }
 }
-.location .location-buttons-button {
-  font-family: "DM Sans", sans-serif;
-  font-weight: 700;
-  font-size: 14px;
-  padding: 12px 24px;
-  border-radius: 20px;
-  border: none;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  transition: background-color 0.3s ease;
+@media (min-width: 1200px) {
+  .location .location-buttons-button {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 12px 24px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: background-color 0.3s ease;
+  }
+  .location .location-buttons-btn-ourlocation {
+    background-color: #d41342;
+    color: #fff;
+  }
+  .location .location-buttons-btn-franchise {
+    background-color: #fff;
+    color: #d41443;
+    border: 1px solid #d41443;
+  }
+  .location .location-buttons-btn-span {
+    font-weight: 700;
+  }
 }
-.location .location-buttons-btn-ourlocation {
-  background-color: #d41342;
-  color: #fff;
-}
-.location .location-buttons-btn-franchise {
-  background-color: #fff;
-  color: #d41443;
-  border: 1px solid #d41443;
-}
-.location .location-buttons-btn-span {
-  font-weight: 700;
-}
-
 .footer {
   background-color: #fff5f6;
   padding: 60px 0;
