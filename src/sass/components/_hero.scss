@@ -8,6 +8,9 @@
 padding-bottom: 0;
 padding-top: 0;
     }
+   @media (min-width: 1200px) {
+   padding-bottom: 0;
+    }
 }
 .hero-back-img{
     position: absolute;
@@ -23,6 +26,13 @@ height: 410px;
 height: 336px;
 transform: translateX(70%)
     }
+        @media (min-width: 1200px) {
+   display: flex;
+   position: absolute;
+   margin-left: 140px;
+   width: 236px;
+height: 557px;
+    }
 }
 .hero-circle-imgphone{
     position: absolute;
@@ -30,10 +40,15 @@ transform: translateX(70%)
     bottom: 45px;
     width: 315px;
 height: 378px;
+@media (min-width: 1200px) {
+   display: none;
+    }
+
  @media (min-width: 768px) and (max-width: 1199px) {
        display: none;
     }
 }
+
 .hero-circle-imbtablet{
     display: none;
      @media (min-width: 768px) and (max-width: 1199px) {
@@ -42,6 +57,16 @@ height: 378px;
       height: 322px;
       transform: translateX(95%);
       bottom: 36px;
+    }
+    @media (min-width: 1200px) {
+   display: flex;
+   position: absolute;
+   margin-left: 480px;
+margin-top: 100px;
+   width: 538px;
+height: 538px;
+
+
     }
 }
 .hero-giiirl-tablet{
@@ -61,10 +86,19 @@ top: 266px;
        position: relative;
        top: 80px;
     }
+     @media (min-width: 1200px) {
+   margin-left: 68px;
+    position: relative;
+       top: 20px;
+    }
 }
 .hero-ice-txt{
     margin-bottom: 19px;
+     @media (min-width: 1200px) {
+margin-bottom: 25px;
+    }
 }
+
 .hero-ice-title{
     position: relative;
 z-index: 3;
@@ -79,6 +113,14 @@ letter-spacing: .04em;
 width: 218px;
  @media (min-width: 768px) and (max-width: 1199px) {
    font-size: 24px;
+    }
+      @media (min-width: 1200px) {
+font-size: 36px;
+line-height: 1.15;
+letter-spacing: 4%;
+text-transform: uppercase;
+letter-spacing: .003em;
+width: 218px;
     }
 }
 .hero-passion{
@@ -98,6 +140,13 @@ font-size: 34px;
 line-height: 90%;
 letter-spacing: 4%;
 margin-bottom: 20px;
+    }
+       @media (min-width: 1200px) {
+font-weight: 400;
+font-size: 58px;
+line-height: 90%;
+letter-spacing: 4%;
+text-transform: uppercase;
     }
 }
 .hero-btn-list{
@@ -119,6 +168,10 @@ text-align: center;
 vertical-align: middle;
 background-color: #D41443;
 margin-right: 8px;
+  @media (min-width: 1200px) {
+padding: 12px 21px;
+font-size: 14px;
+}
 }
 .hero-ice-btntwo{
 color:#D41443;
@@ -132,28 +185,26 @@ line-height: 100%;
 letter-spacing: 0%;
 text-align: center;
 vertical-align: middle;
-background-color: white; 
+background-color: white;
+ @media (min-width: 1200px) {
+padding: 12px 21px;
+font-size: 14px;
+} 
 }
-.hero-num-list{
-    display: none;
-      @media (min-width: 768px) and (max-width: 1199px) {
-       display: flex;
-       flex-direction: column;
-       position: relative;
-    bottom: 48px;
-    margin-right: 34px;
-     z-index: 3;
-    }
-}
+
 .hero-milk{
     display: none;
      @media (min-width: 768px) and (max-width: 1199px) {
        display: flex;
     position: relative;
     padding-bottom: 28px;
-
-
     }
+     @media (min-width: 1200px) {
+display: flex;
+margin-left: 30px;
+position: relative;
+bottom: 70px;
+} 
 }
 .hero-milk-txt{
  @media (min-width: 768px) and (max-width: 1199px) {
@@ -167,42 +218,27 @@ position: relative;
 top: 48px;
 right: 10px;
     }
+       @media (min-width: 1200px) {
+font-family: "DM Sans",sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 140%;
+letter-spacing: 0%;
+color: white;
+position: relative;
+top: 59px;
+margin-left: 30px;
+} 
 }
 .hero-milk-img{
      @media (min-width: 768px) and (max-width: 1199px) {
        width: 124px;
 height: 126px;
     }
-}
-.hero-num-txt {
-      @media (min-width: 768px) and (max-width: 1199px) {
- font-family: "Titan One",sans-serif;
-font-weight: 400;
-font-size: 30px;
-line-height: 100%;
-letter-spacing: 4%;
-text-align: right;
-text-transform: uppercase;
-color: #D41443;
-margin-bottom: 5px;
-    }
-}
-.hero-num-p {
-     @media (min-width: 768px) and (max-width: 1199px) {
-font-family: "DM Sans",sans-serif;
-font-weight: 400;
-font-size: 8px;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: right;
-color:  white;
-    }
-}
-
-.hero-num-item{
-     @media (min-width: 768px) and (max-width: 1199px) {
-       margin-bottom: 12px;
-    }
+           @media (min-width: 1200px) {
+width: 188px;
+height: 191px;
+} 
 }
 .hero-milk-btn{
     @media (min-width: 768px) and (max-width: 1199px) {
@@ -219,7 +255,94 @@ position: relative;
 top: 107px;
 right: 115px;
     }
+         @media (min-width: 1200px) {
+    margin-bottom: 12px;
+       color: #D41443;
+       font-size: 7px;
+       display: inline-block;
+       width: 26px;
+height: 26px;
+border: none;
+border-radius: 360px;
+background-color: white;
+position: relative;
+top: 150px;
+right: 182.5px;
+} 
 }
+.hero-num-list{
+    display: none;
+      @media (min-width: 768px) and (max-width: 1199px) {
+       display: flex;
+       flex-direction: column;
+       position: relative;
+    bottom: 48px;
+    margin-right: 34px;
+     z-index: 3;
+    }
+         @media (min-width: 1200px) {
+  display: flex;
+  flex-direction: column;
+       position: relative;
+    bottom: 173px;
+    margin-right: 34px;
+     z-index: 3;
+} 
+}
+.hero-num-txt {
+      @media (min-width: 768px) and (max-width: 1199px) {
+ font-family: "Titan One",sans-serif;
+font-weight: 400;
+font-size: 30px;
+line-height: 100%;
+letter-spacing: 4%;
+text-align: right;
+text-transform: uppercase;
+color: #D41443;
+margin-bottom: 5px;
+    }
+      @media (min-width: 1200px) {
+  font-family: "Titan One",sans-serif;
+font-weight: 300;
+font-size: 46px;
+line-height: 100%;
+letter-spacing: 4%;
+text-align: right;
+text-transform: uppercase;
+color: #D41443;
+margin-bottom: 2px;
+} 
+}
+.hero-num-p {
+     @media (min-width: 768px) and (max-width: 1199px) {
+font-family: "DM Sans",sans-serif;
+font-weight: 400;
+font-size: 8px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: right;
+color:  white;
+    }
+         @media (min-width: 1200px) {
+font-family: "DM Sans",sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: right;
+color: white;
+} 
+}
+
+.hero-num-item{
+     @media (min-width: 768px) and (max-width: 1199px) {
+       margin-bottom: 12px;
+    }
+        @media (min-width: 1200px) {
+margin-bottom: 15px;
+} 
+}
+
 .hero-circle{
  @media (min-width: 768px) and (max-width: 1199px) {
   background-color: white;
