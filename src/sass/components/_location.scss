@@ -1,134 +1,177 @@
 .location {
-  background: #fff5f6;
+  background-color: #fff5f6;
   padding: 120px 0;
 
   .location-list {
     display: flex;
-    justify-content: center;
-    gap: 30px;
-    flex-wrap: wrap;
-    margin-bottom: 40px;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0;
+    list-style: none;
 
-    .location-item {
-      width: 330px;
-      height: 572px;
-      background-color: #fff;
-      border-radius: 24px;
-      padding: 40px;
-      box-shadow: 0px 8px 30px 0px rgba(212, 20, 67, 0.1);
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
+    @media (min-width: 768px) {
+      flex-direction: row;
+      justify-content: space-between;
+      gap: 32px;
+    }
+  }
+
+  .location-item {
+    background-color: white;
+    border-radius: 24px;
+    padding: 50px 20px;
+    box-shadow: 0px 8px 30px 0px rgba(212, 20, 67, 0.1);
+
+    font-family: 'DM Sans', sans-serif;
+    text-align: left;
+
+    @media (min-width: 768px) {
+      width: 100%;
+    }
+
+    .location-type {
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 500;
+      font-size: 12px;
+      color: white;
+      padding: 4px 12px;
+      border-radius: 6px;
+      display: inline-block;
+      margin-bottom: 20px;
+      line-height: 186%;
+      letter-spacing: 4%;
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    .location-type-cafe {
       font-family: 'DM Sans';
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 186%;
+      letter-spacing: 4%;
+      text-align: left;
+      align-items: middle;
+      color: #fff;
+      background-color: rgba(240, 209, 165, 1);
+    }
 
-      .location-type {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.86;
-        letter-spacing: 0.04em;
-        text-align: center;
-        display: inline-block;
-        padding: 4px 12px;
-        border-radius: 6px;
-        margin-bottom: 10px;
+    .location-type-foodtrack {
+      font-family: 'DM Sans';
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 186%;
+      letter-spacing: 4%;
+      text-align: left;
+      vertical-align: middle;
+      color: #fff;
+      background-color: rgba(194, 226, 151, 1);
+    }
 
-        &.type-cafe {
-          background-color: #fff;
-          color: rgba(240, 209, 165, 1);
-        }
+    .location-city {
+      font-family: DM Sans;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 186%;
+      letter-spacing: 4%;
+      color: rgba(0, 0, 0, 1);
 
-        &.type-foodtruck {
-          background-color: #fff;
-          color: rgba(194, 226, 151, 1);
-        }
-      }
+      margin-bottom: 12px;
+    }
 
-      .location-city {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.86;
-        letter-spacing: 0.04em;
-        color: #000;
-      }
+    .location-text p {
+      font-family: DM Sans;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 18px;
+      letter-spacing: 0%;
+      color: rgba(144, 126, 130, 1);
+      margin-bottom: 8px;
+    }
 
-      p {
-        font-size: 14px;
-        color: #907e82;
-        margin: 0;
+    .time-title {
+      font-family: DM Sans;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 186%;
+      letter-spacing: 0%;
+      color: rgba(0, 0, 0, 1);
+      margin-top: 16px;
+      margin-bottom: 4px;
+    }
 
-        &.time-title {
-          color: #000;
-          font-weight: 700;
-          margin-top: 10px;
-        }
+    .time {
+      font-family: DM Sans;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 186%;
+      letter-spacing: 0%;
+      color: rgba(255, 165, 186, 1);
+      margin: 0;
+    }
 
-        &.time {
-          font-weight: 500;
-          font-size: 16px;
-          line-height: 1.86;
-          color: #ffa5ba;
-        }
-      }
-
-      .location-contact {
-        margin-top: auto;
-        border-top: 1px solid #e1e1e1;
-        padding-top: 16px;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.83;
-
-        p {
-          font-size: 14px;
-          color: #907e82;
-          margin-bottom: 4px;
-        }
-      }
+    .location-contact {
+      margin-top: 24px;
+      border-top: 1px solid #e1e1e1;
+      padding-top: 16px;
+    }
+    .location-contact-text {
+      color: rgba(144, 126, 130, 1);
+      margin: 0;
+      font-family: DM Sans;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 100%;
+      letter-spacing: 0%;
+      text-align: center;
+      vertical-align: middle;
     }
   }
 
   .location-buttons {
+    margin-top: 40px;
     display: flex;
-    justify-content: center;
-    gap: 15px;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    list-style: none;
+    padding: 0;
 
-    .btn-ourlocation {
-      background-color: #d41342;
-      color: #fff;
+    @media (min-width: 768px) {
+      flex-direction: row;
+      justify-content: center;
+      gap: 16px;
+      width: 161.45037841796875px;
+      height: 44px;
+    }
+
+    &-button {
       font-family: 'DM Sans', sans-serif;
       font-weight: 700;
-      font-size: 16px;
+      font-size: 14px;
       padding: 12px 24px;
-      border-radius: 50px;
+      border-radius: 20px;
       border: none;
       cursor: pointer;
       display: flex;
       align-items: center;
-
-      span {
-        margin-left: 6px;
-        font-weight: 700;
-      }
+      gap: 8px;
+      transition: background-color 0.3s ease;
     }
 
-    .btn-francheese {
+    &-btn-ourlocation {
+      background-color: #d41342;
+      color: #fff;
+    }
+
+    &-btn-franchise {
       background-color: #fff;
       color: #d41443;
-      border: 2px solid #d41443;
-      font-family: 'DM Sans', sans-serif;
-      font-weight: 700;
-      font-size: 16px;
-      padding: 12px 24px;
-      border-radius: 50px;
-      cursor: pointer;
-      box-shadow: 0px 4px 20px rgba(236, 77, 115, 0.1);
-      display: flex;
-      align-items: center;
+      border: 1px solid #d41443;
+    }
 
-      span {
-        margin-left: 6px;
-        font-weight: 700;
-      }
+    &-btn-span {
+      font-weight: 700;
     }
   }
 }
