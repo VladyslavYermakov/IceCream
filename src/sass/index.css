@@ -859,7 +859,7 @@ ul, li {
   font-family: "DM Sans", sans-serif;
   text-align: left;
 }
-.location .location-item .location-type {
+.location .location-type {
   font-family: "DM Sans", sans-serif;
   font-weight: 500;
   font-size: 12px;
@@ -873,7 +873,7 @@ ul, li {
   text-align: center;
   vertical-align: middle;
 }
-.location .location-item .location-type-cafe {
+.location .location-type-cafe {
   font-family: "DM Sans";
   font-weight: 500;
   font-size: 12px;
@@ -884,7 +884,7 @@ ul, li {
   color: #fff;
   background-color: rgb(240, 209, 165);
 }
-.location .location-item .location-type-foodtrack {
+.location .location-type-foodtrack {
   font-family: "DM Sans";
   font-weight: 500;
   font-size: 12px;
@@ -895,7 +895,7 @@ ul, li {
   color: #fff;
   background-color: rgb(194, 226, 151);
 }
-.location .location-item .location-city {
+.location .location-city {
   font-family: DM Sans;
   font-weight: 500;
   font-size: 12px;
@@ -904,7 +904,7 @@ ul, li {
   color: rgb(0, 0, 0);
   margin-bottom: 12px;
 }
-.location .location-item .location-text p {
+.location .location-text p {
   font-family: DM Sans;
   font-weight: 500;
   font-size: 12px;
@@ -913,7 +913,7 @@ ul, li {
   color: rgb(144, 126, 130);
   margin-bottom: 8px;
 }
-.location .location-item .time-title {
+.location .time-title {
   font-family: DM Sans;
   font-weight: 500;
   font-size: 12px;
@@ -923,7 +923,7 @@ ul, li {
   margin-top: 16px;
   margin-bottom: 4px;
 }
-.location .location-item .time {
+.location .time {
   font-family: DM Sans;
   font-weight: 500;
   font-size: 12px;
@@ -932,12 +932,12 @@ ul, li {
   color: rgb(255, 165, 186);
   margin: 0;
 }
-.location .location-item .location-contact {
+.location .location-contact {
   margin-top: 24px;
   border-top: 1px solid #e1e1e1;
   padding-top: 16px;
 }
-.location .location-item .location-contact-text {
+.location .location-contact-text {
   color: rgb(144, 126, 130);
   margin: 0;
   font-family: DM Sans;
