@@ -669,7 +669,7 @@ ul, li {
 @media (min-width: 768px) {
   .products-catalog {
     flex-direction: row;
-    margin-top: 150px;
+    margin-top: 250px;
     gap: 20px;
   }
 }
