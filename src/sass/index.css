@@ -764,6 +764,23 @@ ul, li {
 .rewiews {
   padding: 60px 0;
   background-color: #fafafa;
+  background-image: url(../images/brackets.svg);
+  background-repeat: no-repeat;
+  background-position: 5px 170px;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .rewiews {
+    background-image: url(../images/brackets.svg);
+    background-repeat: no-repeat;
+    background-position: 100px 170px;
+  }
+}
+@media (min-width: 1200px) {
+  .rewiews {
+    background-image: url(../images/brackets.svg);
+    background-repeat: no-repeat;
+    background-position: 215px 170px;
+  }
 }
 
 .testimonial-slider {
@@ -776,6 +793,10 @@ ul, li {
 .slides-container {
   position: relative;
   overflow: hidden;
+}
+
+.lines {
+  border-bottom: 1px solid #E1E1E1;
 }
 
 .slide {
@@ -812,10 +833,16 @@ ul, li {
   text-align: center;
   padding: 0 20px;
 }
+@media (min-width: 768px) and (max-width: 1199px) {
+  .testimonial-text {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
 
 .dots {
   font-family: "DM Sans";
-  font-weight: 500;
+  font-weight: 900;
   line-height: 186%;
   text-align: center;
   color: #C7133E;
