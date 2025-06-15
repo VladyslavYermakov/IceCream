@@ -184,11 +184,95 @@ ul, li {
   width: 40px;
   height: 40px;
   border: none;
-  background-image: url(../images/burger-open.svg);
   background-repeat: no-repeat;
   border-radius: 50%;
   cursor: pointer;
   transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-menu-close {
+  color: white;
+  position: relative;
+}
+
+.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.header-menu {
+  background-color: #E17992;
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  padding: 48px 40px;
+  z-index: 999;
+}
+
+.header-menu-imgopn {
+  position: relative;
+  bottom: 85.2px;
+  left: 225px;
+}
+@media (min-width: 1200px) {
+  .header-menu-imgopn {
+    display: none;
+  }
+}
+
+.header-menu-close {
+  background-color: black;
+  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: transparent;
+  display: block;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 2;
+  padding: 70px 70px;
+}
+
+.header-menu-btn {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  color: #D41443;
+  padding: 11px 48px;
+  border-radius: 22px;
+  margin-top: 60px;
+  margin-left: 40px;
+}
+
+.header-menu-list {
+  margin-top: 19px;
+}
+
+.header-menu-link {
+  margin-left: 21px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: white;
+}
+
+.header-menu-link:hover {
+  color: #D41443;
+}
+
+.header-menu-item {
+  margin-bottom: 21px;
 }
 
 .hero {
@@ -780,6 +864,23 @@ ul, li {
 .rewiews {
   padding: 60px 0;
   background-color: #fafafa;
+  background-image: url(../images/brackets.svg);
+  background-repeat: no-repeat;
+  background-position: 5px 170px;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .rewiews {
+    background-image: url(../images/brackets.svg);
+    background-repeat: no-repeat;
+    background-position: 100px 170px;
+  }
+}
+@media (min-width: 1200px) {
+  .rewiews {
+    background-image: url(../images/brackets.svg);
+    background-repeat: no-repeat;
+    background-position: 215px 170px;
+  }
 }
 
 .testimonial-slider {
@@ -792,6 +893,10 @@ ul, li {
 .slides-container {
   position: relative;
   overflow: hidden;
+}
+
+.lines {
+  border-bottom: 1px solid #E1E1E1;
 }
 
 .slide {
@@ -828,10 +933,16 @@ ul, li {
   text-align: center;
   padding: 0 20px;
 }
+@media (min-width: 768px) and (max-width: 1199px) {
+  .testimonial-text {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
 
 .dots {
   font-family: "DM Sans";
-  font-weight: 500;
+  font-weight: 900;
   line-height: 186%;
   text-align: center;
   color: #C7133E;
