@@ -1,6 +1,7 @@
 .products{
     background-color: white;
     padding: 60px 20px;
+    margin-top: 80px;
 }
 .products-title{
    text-align: center;
@@ -15,6 +16,7 @@ line-height: 100%;
 letter-spacing: 4%;
 text-align: center;
 text-transform: uppercase;
+margin-bottom: 20px;
 }
 .production-h2{
     color: #D41443;
@@ -31,9 +33,14 @@ text-transform: uppercase;
     display: flex;
     justify-content: center;
     gap: 30px;
+    margin-top: 280px;
 }
 .products-list{
+    position: relative;
     text-align: center;
+    width: 330px;
+    height: 525px;
+
 }
 .products-list:first-child{
     background-color: #FFB8CA;
@@ -64,9 +71,13 @@ text-transform: uppercase;
 
 
 .products-imges{
+    position: absolute;
+    top: -220px;
+    transform: translateX(-50%);
     width: 335px;
-    margin-bottom: 15px;
+    z-index: 1;
 }
+
 .production-h3{
     font-family: "Titan One";
 font-weight: 400;
@@ -76,9 +87,11 @@ letter-spacing: 4%;
 text-align: center;
 text-transform: uppercase;
 color: #FFFFFF;
+margin-top: 130px;
 }
 .products-p{
 color: #FFFFFF;
+margin-top: 30px;
 }
 .about-products{
     font-family: "DM Sans";
@@ -88,4 +101,13 @@ line-height: 176%;
 letter-spacing: 4%;
 text-align: center;
 color: #FFFFFF;
+margin-top: 30px;
+margin-bottom: 100px;
+}
+.products-button{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    color: red;
 }
