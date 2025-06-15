@@ -61,12 +61,10 @@ height: 378px;
     @media (min-width: 1200px) {
    display: flex;
    position: absolute;
-   margin-left: 480px;
-margin-top: 100px;
-   width: 538px;
-height: 538px;
-
-
+   margin-left: 440px;
+transform: translateY(-125px);
+   width: 600px;
+height: 600px;
     }
 }
 .hero-giiirl-tablet{
