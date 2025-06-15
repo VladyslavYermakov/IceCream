@@ -763,11 +763,21 @@ ul, li {
     margin-top: 280px;
   }
 }
+@media (min-width: 1200px) {
+  .products-catalog {
+    margin-top: 130px;
+  }
+}
 
 .products-item {
   position: relative;
   text-align: center;
   width: 100%;
+}
+@media (min-width: 320px) {
+  .products-item {
+    width: 280px;
+  }
 }
 @media (min-width: 768px) {
   .products-item {
