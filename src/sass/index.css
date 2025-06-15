@@ -192,7 +192,7 @@ ul, li {
 }
 
 .hero {
-  background-color: #FFB8CA;
+  background-color: #ffb8ca;
   position: relative;
   padding-top: 193px;
   padding-bottom: 160px;
@@ -270,10 +270,10 @@ ul, li {
   .hero-circle-imbtablet {
     display: flex;
     position: absolute;
-    margin-left: 480px;
-    margin-top: 100px;
-    width: 538px;
-    height: 538px;
+    margin-left: 440px;
+    transform: translateY(-125px);
+    width: 600px;
+    height: 600px;
   }
 }
 
@@ -347,7 +347,7 @@ ul, li {
 .hero-passion {
   position: relative;
   z-index: 3;
-  color: #D41443;
+  color: #d41443;
   font-family: "Titan One", sans-serif;
   font-weight: 400;
   font-size: 48px;
@@ -393,7 +393,7 @@ ul, li {
   letter-spacing: 0%;
   text-align: center;
   vertical-align: middle;
-  background-color: #D41443;
+  background-color: #d41443;
   margin-right: 8px;
 }
 @media (min-width: 1200px) {
@@ -404,7 +404,7 @@ ul, li {
 }
 
 .hero-ice-btntwo {
-  color: #D41443;
+  color: #d41443;
   padding: 10px 17px;
   border: none;
   border-radius: 20px;
@@ -486,7 +486,7 @@ ul, li {
 @media (min-width: 768px) and (max-width: 1199px) {
   .hero-milk-btn {
     margin-bottom: 12px;
-    color: #D41443;
+    color: #d41443;
     font-size: 7px;
     display: inline-block;
     width: 20px;
@@ -502,7 +502,7 @@ ul, li {
 @media (min-width: 1200px) {
   .hero-milk-btn {
     margin-bottom: 12px;
-    color: #D41443;
+    color: #d41443;
     font-size: 7px;
     display: inline-block;
     width: 26px;
@@ -549,7 +549,7 @@ ul, li {
     letter-spacing: 4%;
     text-align: right;
     text-transform: uppercase;
-    color: #D41443;
+    color: #d41443;
     margin-bottom: 5px;
   }
 }
@@ -562,7 +562,7 @@ ul, li {
     letter-spacing: 4%;
     text-align: right;
     text-transform: uppercase;
-    color: #D41443;
+    color: #d41443;
     margin-bottom: 2px;
   }
 }
