@@ -774,6 +774,7 @@ ul, li {
   position: relative;
   text-align: center;
   width: 100%;
+  border-radius: 24px;
 }
 @media (min-width: 320px) {
   .products-item {
@@ -793,19 +794,16 @@ ul, li {
 
 .products-item:first-child {
   background-color: #FFB8CA;
-  border-radius: 12px;
   padding: 20px;
 }
 
 .products-item:nth-child(2) {
   background-color: #F0D1A5;
-  border-radius: 12px;
   padding: 20px;
 }
 
 .products-item:nth-child(3) {
   background-color: #C2E297;
-  border-radius: 12px;
   padding: 20px;
 }
 
@@ -815,6 +813,12 @@ ul, li {
   transform: translateX(-50%);
   width: 335px;
   z-index: 1;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .products-imges {
+    width: 220px;
+    top: -100px;
+  }
 }
 
 .production-h3 {
@@ -828,10 +832,27 @@ ul, li {
   color: #FFFFFF;
   margin-top: 130px;
 }
+@media (min-width: 768px) and (max-width: 1199px) {
+  .production-h3 {
+    font-size: 20px;
+  }
+}
+@media (min-width: 320px) {
+  .production-h3 {
+    font-family: "Titan One";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 4%;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
 
 .products-p {
   color: #FFFFFF;
   margin-top: 30px;
+  font-size: 20px;
 }
 
 .about-products {
@@ -844,6 +865,25 @@ ul, li {
   color: #FFFFFF;
   margin-top: 30px;
   margin-bottom: 100px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .about-products {
+    font-size: 14px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+}
+@media (min-width: 320px) {
+  .about-products {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
 }
 
 .products-button {
@@ -853,6 +893,17 @@ ul, li {
   border-radius: 50%;
   color: red;
   cursor: pointer;
+  margin-bottom: 50px;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .products-button {
+    margin-bottom: 40px;
+  }
+}
+@media (min-width: 320px) {
+  .products-button {
+    margin-bottom: 40px;
+  }
 }
 
 .gallery {
