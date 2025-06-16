@@ -750,6 +750,12 @@ ul, li {
   flex-direction: column;
   justify-content: center;
 }
+@media (min-width: 320px) {
+  .products-catalog {
+    margin-top: 270px;
+    gap: 245px;
+  }
+}
 @media (min-width: 768px) {
   .products-catalog {
     flex-direction: row;
@@ -761,11 +767,6 @@ ul, li {
   .products-catalog {
     gap: 30px;
     margin-top: 280px;
-  }
-}
-@media (min-width: 1200px) {
-  .products-catalog {
-    margin-top: 130px;
   }
 }
 
