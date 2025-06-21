@@ -201,6 +201,10 @@ ul, li {
   pointer-events: none;
 }
 
+.header-menu-wrap {
+  z-index: 1000;
+}
+
 .header-menu {
   background-color: #E17992;
   position: absolute;
