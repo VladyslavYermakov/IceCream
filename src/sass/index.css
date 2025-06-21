@@ -11,7 +11,17 @@
   --coffee: #F0D1A5;
 }
 
-h1, h2, h3, p, ul, li, input, button, img, a, body {
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+input,
+button,
+img,
+a,
+body {
   margin: 0;
   padding: 0;
 }
@@ -28,7 +38,8 @@ a {
   text-decoration: none;
 }
 
-ul, li {
+ul,
+li {
   text-decoration: none;
   list-style: none;
 }
@@ -42,7 +53,7 @@ ul, li {
   margin: 0 auto;
   width: 320px;
   padding: 0px 15px;
-  outline: 2px solid transparent;
+  outline: 2px solid red;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
   .container {
@@ -1002,10 +1013,21 @@ ul, li {
 .location .location-item {
   background-color: white;
   border-radius: 24px;
-  padding: 330px 572px;
   box-shadow: 0px 8px 30px 0px rgba(212, 20, 67, 0.1);
+  padding: 43px 20px;
   font-family: "DM Sans", sans-serif;
   text-align: left;
+  margin-bottom: 86px;
+}
+@media (min-width: 768px) {
+  .location .location-item {
+    padding: 50px 31px;
+  }
+}
+@media (min-width: 1200px) {
+  .location .location-item {
+    padding: 62px 43px;
+  }
 }
 .location .location-type {
   font-family: "DM Sans", sans-serif;
@@ -1028,9 +1050,10 @@ ul, li {
   line-height: 186%;
   letter-spacing: 4%;
   text-align: left;
-  align-items: middle;
+  display: inline-block;
   color: #fff;
   background-color: rgb(240, 209, 165);
+  margin-bottom: 32px;
 }
 .location .location-type-foodtrack {
   font-family: "DM Sans";
@@ -1039,46 +1062,55 @@ ul, li {
   line-height: 186%;
   letter-spacing: 4%;
   text-align: left;
-  vertical-align: middle;
+  display: inline-block;
   color: #fff;
   background-color: rgb(194, 226, 151);
+  margin-bottom: 32px;
 }
 .location .location-city {
-  font-family: DM Sans;
+  font-family: "DM Sans";
   font-weight: 500;
   font-size: 12px;
   line-height: 186%;
   letter-spacing: 4%;
   color: rgb(0, 0, 0);
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 .location .location-text p {
-  font-family: DM Sans;
+  font-family: "DM Sans";
   font-weight: 500;
   font-size: 12px;
   line-height: 18px;
   letter-spacing: 0%;
   color: rgb(144, 126, 130);
-  margin-bottom: 8px;
+  margin-bottom: 64px;
 }
 .location .time-title {
-  font-family: DM Sans;
+  font-family: "DM Sans";
   font-weight: 500;
   font-size: 12px;
   line-height: 186%;
   letter-spacing: 0%;
   color: rgb(0, 0, 0);
-  margin-top: 16px;
-  margin-bottom: 4px;
+  margin-bottom: 0px;
 }
 .location .time {
-  font-family: DM Sans;
+  font-family: "DM Sans";
   font-weight: 500;
   font-size: 12px;
   line-height: 186%;
   letter-spacing: 0%;
   color: rgb(255, 165, 186);
-  margin: 0;
+  margin: 15px;
+}
+.location .time2 {
+  font-family: "DM Sans";
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 186%;
+  letter-spacing: 0%;
+  color: rgb(255, 165, 186);
+  margin: 64px;
 }
 .location .location-contact {
   margin-top: 24px;
@@ -1087,14 +1119,14 @@ ul, li {
 }
 .location .location-contact-text {
   color: rgb(144, 126, 130);
-  margin: 0;
-  font-family: DM Sans;
+  font-family: "DM Sans";
   font-weight: 700;
   font-size: 16px;
   line-height: 100%;
   letter-spacing: 0%;
   text-align: center;
   vertical-align: middle;
+  margin-bottom: 62px;
 }
 .location .location-buttons {
   margin-top: 40px;
@@ -1102,6 +1134,7 @@ ul, li {
   flex-direction: column;
   gap: 12px;
   align-items: center;
+  margin-bottom: 165px;
 }
 @media (min-width: 768px) {
   .location .location-buttons {

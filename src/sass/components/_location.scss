@@ -19,13 +19,16 @@
   .location-item {
     background-color: white;
     border-radius: 24px;
-    padding: 330px 572px;
     box-shadow: 0px 8px 30px 0px rgba(212, 20, 67, 0.1);
-
+    padding: 43px 20px;
     font-family: 'DM Sans', sans-serif;
     text-align: left;
-
+    margin-bottom: 86px;
     @media (min-width: 768px) {
+      padding: 50px 31px;
+    }
+    @media (min-width: 1200px) {
+      padding: 62px 43px;
     }
   }
   .location-type {
@@ -50,9 +53,11 @@
     line-height: 186%;
     letter-spacing: 4%;
     text-align: left;
-    align-items: middle;
+    display: inline-block;
     color: #fff;
     background-color: rgba(240, 209, 165, 1);
+
+    margin-bottom: 32px;
   }
 
   .location-type-foodtrack {
@@ -62,51 +67,63 @@
     line-height: 186%;
     letter-spacing: 4%;
     text-align: left;
-    vertical-align: middle;
+    display: inline-block;
     color: #fff;
     background-color: rgba(194, 226, 151, 1);
+
+    margin-bottom: 32px;
   }
 
   .location-city {
-    font-family: DM Sans;
+    font-family: 'DM Sans';
     font-weight: 500;
     font-size: 12px;
     line-height: 186%;
     letter-spacing: 4%;
     color: rgba(0, 0, 0, 1);
 
-    margin-bottom: 12px;
+    margin-bottom: 10px;
   }
 
   .location-text p {
-    font-family: DM Sans;
+    font-family: 'DM Sans';
     font-weight: 500;
     font-size: 12px;
     line-height: 18px;
     letter-spacing: 0%;
     color: rgba(144, 126, 130, 1);
-    margin-bottom: 8px;
+
+    margin-bottom: 64px;
   }
 
   .time-title {
-    font-family: DM Sans;
+    font-family: 'DM Sans';
     font-weight: 500;
     font-size: 12px;
     line-height: 186%;
     letter-spacing: 0%;
     color: rgba(0, 0, 0, 1);
-    margin-top: 16px;
-    margin-bottom: 4px;
+    margin-bottom: 0px;
   }
 
   .time {
-    font-family: DM Sans;
+    font-family: 'DM Sans';
     font-weight: 500;
     font-size: 12px;
     line-height: 186%;
     letter-spacing: 0%;
     color: rgba(255, 165, 186, 1);
-    margin: 0;
+    margin: 15px;
+  }
+
+  .time2 {
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 186%;
+    letter-spacing: 0%;
+    color: rgba(255, 165, 186, 1);
+    margin: 64px;
   }
 
   .location-contact {
@@ -114,16 +131,17 @@
     border-top: 1px solid #e1e1e1;
     padding-top: 16px;
   }
+
   .location-contact-text {
     color: rgba(144, 126, 130, 1);
-    margin: 0;
-    font-family: DM Sans;
+    font-family: 'DM Sans';
     font-weight: 700;
     font-size: 16px;
     line-height: 100%;
     letter-spacing: 0%;
     text-align: center;
     vertical-align: middle;
+    margin-bottom: 62px;
   }
 
   .location-buttons {
@@ -132,6 +150,8 @@
     flex-direction: column;
     gap: 12px;
     align-items: center;
+
+    margin-bottom: 165px;
 
     @media (min-width: 768px) {
       flex-direction: row;
