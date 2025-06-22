@@ -77,6 +77,15 @@
     left: 580px;
     top: 266px;
   }
+    @media (min-width: 1200px) {
+ display: flex;
+ position: absolute;
+ width: 293px;
+height: 232px;
+top: 505px;
+left: 1015px;
+  }
+
 }
 .hero-ice {
   @media (min-width: 768px) and (max-width: 1199px) {
@@ -351,6 +360,16 @@
     z-index: -1;
     top: -5px;
   }
+    @media (min-width: 1200px) {
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 360;
+    position: absolute;
+    right: -13px;
+    z-index: -1;
+    top: -8px;
+  }
 }
 .hero-circle-two {
   @media (min-width: 768px) and (max-width: 1199px) {
@@ -362,5 +381,15 @@
     right: -13px;
     z-index: -1;
     top: 50px;
+  }
+    @media (min-width: 1200px) {
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 360;
+    position: absolute;
+    right: -13px;
+    z-index: -1;
+    top: 70px;
   }
 }

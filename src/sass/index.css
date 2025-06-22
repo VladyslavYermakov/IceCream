@@ -123,6 +123,7 @@ ul, li {
 }
 
 .header-btn {
+  cursor: pointer;
   display: none;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
@@ -200,6 +201,10 @@ ul, li {
   pointer-events: none;
 }
 
+.header-menu-wrap {
+  z-index: 1000;
+}
+
 .header-menu {
   background-color: #E17992;
   position: absolute;
@@ -220,6 +225,13 @@ ul, li {
 @media (min-width: 1200px) {
   .header-menu-imgopn {
     display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .header-menu-imgopn {
+    position: relative;
+    margin-left: 245px;
+    margin-top: 23px;
   }
 }
 
@@ -373,6 +385,16 @@ ul, li {
     height: 133px;
     left: 580px;
     top: 266px;
+  }
+}
+@media (min-width: 1200px) {
+  .hero-giiirl-tablet {
+    display: flex;
+    position: absolute;
+    width: 293px;
+    height: 232px;
+    top: 505px;
+    left: 1015px;
   }
 }
 
@@ -697,6 +719,18 @@ ul, li {
     top: -5px;
   }
 }
+@media (min-width: 1200px) {
+  .hero-circle {
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 360;
+    position: absolute;
+    right: -13px;
+    z-index: -1;
+    top: -8px;
+  }
+}
 
 @media (min-width: 768px) and (max-width: 1199px) {
   .hero-circle-two {
@@ -708,6 +742,18 @@ ul, li {
     right: -13px;
     z-index: -1;
     top: 50px;
+  }
+}
+@media (min-width: 1200px) {
+  .hero-circle-two {
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 360;
+    position: absolute;
+    right: -13px;
+    z-index: -1;
+    top: 70px;
   }
 }
 
