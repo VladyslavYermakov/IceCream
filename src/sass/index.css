@@ -868,6 +868,14 @@ ul, li {
   margin-left: 30px;
   margin-right: 30px;
 }
+@media (min-width: 320px) {
+  .about-products {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+}
 @media (min-width: 768px) and (max-width: 1199px) {
   .about-products {
     font-size: 14px;
@@ -875,14 +883,6 @@ ul, li {
     margin-right: 0px;
     margin-top: 30px;
     margin-bottom: 40px;
-  }
-}
-@media (min-width: 320px) {
-  .about-products {
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 30px;
-    margin-top: 30px;
   }
 }
 
