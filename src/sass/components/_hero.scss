@@ -6,14 +6,16 @@
   background-image:url(../images/circle-tablet-back.png);
 background-size: 350px;
 background-repeat: no-repeat;
-
-
+background-position: 20px;
   @media (min-width: 768px) and (max-width: 1199px) {
     padding-bottom: 0;
     padding-top: 0;
+    background-position: 360px;
   }
   @media (min-width: 1200px) {
     padding-bottom: 0;
+    background-size: 591px;
+    background-position: 420px;
   }
 }
 .hero-back-img {
@@ -32,7 +34,7 @@ background-repeat: no-repeat;
   @media (min-width: 1200px) {
     display: flex;
     position: absolute;
-    margin-left: 140px;
+    margin-left: 90px;
     width: 236px;
     height: 557px;
   }
@@ -73,12 +75,11 @@ background-repeat: no-repeat;
 .hero-giiirl-tablet {
   display: none;
   @media (min-width: 768px) and (max-width: 1199px) {
-    z-index: 2;
     display: flex;
     position: absolute;
     width: 168px;
     height: 133px;
-    left: 580px;
+    left: 680px;
     top: 266px;
   }
     @media (min-width: 1200px) {
@@ -87,7 +88,7 @@ background-repeat: no-repeat;
  width: 293px;
 height: 232px;
 top: 505px;
-left: 1015px;
+left: 828px;
   }
 
 }
@@ -286,7 +287,6 @@ left: 1015px;
     position: relative;
     bottom: 48px;
     margin-right: 34px;
-    z-index: 3;
   }
   @media (min-width: 1200px) {
     display: flex;
