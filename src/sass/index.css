@@ -404,28 +404,6 @@ ul, li {
     top: 266px;
   }
 }
-@media (min-width: 1200px) {
-  .hero-giiirl-tablet {
-    display: flex;
-    position: absolute;
-    width: 293px;
-    height: 232px;
-    top: 505px;
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-    left: 828px;
-=======
-    left: 1015px;
->>>>>>> Stashed changes
-=======
-    left: 1015px;
->>>>>>> Stashed changes
-=======
-    left: 1015px;
->>>>>>> Stashed changes
-  }
-}
 
 @media (min-width: 768px) and (max-width: 1199px) {
   .hero-ice {
