@@ -1,0 +1,118 @@
+.cow{
+    background-color: #FFF5F6;
+    padding: 40px 20px;
+    text-align: center;
+    background-image: url(../images/cow-bg.png);
+    background-repeat: no-repeat;
+    background-position: center 370px;
+    padding-bottom: 140px;
+    @media (min-device-pixel-ratio:2),(min-resolution:192dpi), (min-resolution:2dppx) {
+        background-image: url(../images/cow-bg@2x.png);
+    }
+
+}
+.cow-h4{
+    color: #FFA5BA;
+    font-family: "Titan One";
+font-weight: 400;
+font-size: 30px;
+line-height: 100%;
+letter-spacing: 4%;
+text-align: center;
+text-transform: uppercase;
+margin-bottom: 25px;
+margin-top: 125px;
+}
+.cow-h2{
+    color: #D41443;
+font-family: "Titan One";
+font-weight: 400;
+font-size: 58px;
+line-height: 100%;
+letter-spacing: 6%;
+text-align: center;
+text-transform: uppercase;
+}
+.cow-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.cow-image-side img{
+    width: 516px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.cow-text{
+    color: #000000;
+    font-family: "DM Sans";
+font-weight: 500;
+font-size: 16px;
+line-height: 176%;
+letter-spacing: 4%;
+text-align: left;
+margin-bottom: 35px;
+margin-top: 50px;
+margin-right: 70px;
+margin-left: 70px;
+}
+.cow-instruction{
+    color: #907E82;
+    font-family: "DM Sans";
+font-weight: 500;
+font-size: 14px;
+line-height: 194%;
+letter-spacing: 4%;
+text-align: left;
+margin-right: 70px;
+margin-left: 70px;
+}
+.cow-more{
+    display: block;
+background-color: #fff;
+padding-top: 14px;
+padding-bottom: 14px;
+padding-left: 37px;
+padding-right: 37px;
+border-radius: 22px;
+font-family: "DM Sans";
+font-weight: 700;
+font-size: 16px;
+line-height: 100%;
+color: #D41443;
+margin-top: 35px;
+margin-left: 65px;
+}
+.cow-list{
+    display: flex;
+    gap: 30px;
+    padding: 0 20px;
+}
+.cow-item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.cow-value{
+     color: #D41443;
+   font-family: "Titan One";
+font-weight: 400;
+font-size: 58px;
+line-height: 100%;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+.cow-label{
+    font-family: "DM Sans";
+font-weight: 700;
+font-size: 16px;
+line-height: 176%;
+letter-spacing: 2%;
+}
+.cow-img2{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 40px;
+}
