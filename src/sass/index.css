@@ -1132,14 +1132,17 @@ li {
   width: 220px;
   align-self: center;
 }
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1199px) {
   .location .location-item {
     padding: 50px 31px;
+    margin-bottom: 81px;
   }
 }
 @media (min-width: 1200px) {
   .location .location-item {
     padding: 62px 43px;
+    width: 330px;
+    margin-bottom: 86px;
   }
 }
 .location .location-type {
@@ -1156,6 +1159,18 @@ li {
   text-align: center;
   vertical-align: middle;
 }
+@media (min-width: 768px) and (max-width: 1199px) {
+  .location .location-type {
+    font-size: 16px;
+    padding: 0px 16px;
+  }
+}
+@media (min-width: 1200px) {
+  .location .location-type {
+    font-size: 16px;
+    padding: 0px 16px;
+  }
+}
 .location .location-type-cafe {
   font-family: "DM Sans";
   font-weight: 500;
@@ -1169,6 +1184,18 @@ li {
   padding: 0px 32px;
   border-radius: 4px;
   margin-bottom: 14px;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .location .location-type-cafe {
+    font-size: 16px;
+    padding: 0px 16px;
+  }
+}
+@media (min-width: 1200px) {
+  .location .location-type-cafe {
+    font-size: 16px;
+    padding: 0px 16px;
+  }
 }
 .location .location-type-foodtruck {
   font-family: "DM Sans";
@@ -1184,6 +1211,18 @@ li {
   border-radius: 4px;
   margin-bottom: 14px;
 }
+@media (min-width: 768px) and (max-width: 1199px) {
+  .location .location-type-foodtruck {
+    font-size: 16px;
+    padding: 0px 16px;
+  }
+}
+@media (min-width: 1200px) {
+  .location .location-type-foodtruck {
+    font-size: 16px;
+    padding: 0px 16px;
+  }
+}
 .location .location-city {
   font-family: "DM Sans";
   font-weight: 500;
@@ -1193,7 +1232,18 @@ li {
   color: rgb(0, 0, 0);
   margin-bottom: 10px;
 }
-.location .french-text {
+@media (min-width: 768px) and (max-width: 1199px) {
+  .location .location-city {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1200px) {
+  .location .location-city {
+    font-size: 16px;
+  }
+}
+
+.french-text {
   font-family: "DM Sans";
   font-weight: 500;
   font-size: 12px;
@@ -1202,12 +1252,35 @@ li {
   color: rgb(144, 126, 130);
   margin-bottom: 25px;
 }
-.location .time-title {
+@media (min-width: 768px) and (max-width: 1199px) {
+  .french-text {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1200px) {
+  .french-text {
+    font-size: 16px;
+  }
+}
+
+.time-title {
   margin-top: 24px;
   border-top: 1px solid #e1e1e1;
   padding-top: 16px;
 }
-.location .time-title-text {
+@media (min-width: 768px) and (max-width: 1199px) {
+  .time-title {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1200px) {
+  .time-title {
+    font-size: 16px;
+    margin-top: 32px;
+  }
+}
+
+.time-title-text {
   font-family: "DM Sans";
   font-weight: 500;
   font-size: 12px;
@@ -1216,7 +1289,18 @@ li {
   color: rgb(0, 0, 0);
   margin-bottom: 0px;
 }
-.location .time {
+@media (min-width: 768px) and (max-width: 1199px) {
+  .time-title-text {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1200px) {
+  .time-title-text {
+    font-size: 16px;
+  }
+}
+
+.time {
   font-family: "DM Sans";
   font-weight: 500;
   font-size: 12px;
@@ -1225,7 +1309,18 @@ li {
   color: rgb(255, 165, 186);
   margin-bottom: 10px;
 }
-.location .time2 {
+@media (min-width: 768px) and (max-width: 1199px) {
+  .time {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1200px) {
+  .time {
+    font-size: 16px;
+  }
+}
+
+.time2 {
   font-family: "DM Sans";
   font-weight: 500;
   font-size: 12px;
@@ -1234,12 +1329,30 @@ li {
   color: rgb(255, 165, 186);
   margin-bottom: 25px;
 }
-.location .location-contact {
+@media (min-width: 768px) and (max-width: 1199px) {
+  .time2 {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1200px) {
+  .time2 {
+    font-size: 16px;
+  }
+}
+
+.location-contact {
   margin-top: 24px;
   border-top: 1px solid #e1e1e1;
   padding-top: 16px;
 }
-.location .location-contact-text {
+@media (min-width: 1200px) {
+  .location-contact {
+    font-size: 16px;
+    margin-top: 32px;
+  }
+}
+
+.location-contact-text {
   color: rgb(144, 126, 130);
   font-family: "DM Sans";
   font-weight: 700;
@@ -1247,7 +1360,18 @@ li {
   line-height: 18px;
   letter-spacing: 0%;
 }
-.location .location-contact-text2 {
+@media (min-width: 768px) and (max-width: 1199px) {
+  .location-contact-text {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1200px) {
+  .location-contact-text {
+    font-size: 16px;
+  }
+}
+
+.location-contact-text2 {
   color: rgb(144, 126, 130);
   font-family: "DM Sans";
   font-weight: 700;
@@ -1255,7 +1379,18 @@ li {
   line-height: 18px;
   letter-spacing: 0%;
 }
-.location .location-buttons {
+@media (min-width: 768px) and (max-width: 1199px) {
+  .location-contact-text2 {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1200px) {
+  .location-contact-text2 {
+    font-size: 16px;
+  }
+}
+
+.location-buttons {
   margin-top: 40px;
   display: flex;
   flex-direction: column;
@@ -1263,11 +1398,18 @@ li {
   align-items: center;
   margin-bottom: 165px;
 }
-@media (min-width: 768px) {
-  .location .location-buttons {
+@media (min-width: 768px) and (max-width: 1199px) {
+  .location-buttons {
+    font-size: 16px;
     flex-direction: row;
-    justify-content: center;
-    gap: 16px;
+    margin-left: 196px;
+  }
+}
+@media (min-width: 1200px) {
+  .location-buttons {
+    font-size: 16px;
+    flex-direction: row;
+    margin-left: 443px;
   }
 }
 
@@ -1276,7 +1418,7 @@ li {
   color: #fff;
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 16px;
   padding: 12px 24px;
   border-radius: 20px;
   border: none;
@@ -1290,12 +1432,22 @@ li {
   border: 1px solid #d41443;
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
-  font-size: 14px;
-  padding: 12px 24px;
+  font-size: 16px;
+  padding: 14px 32px;
   border-radius: 20px;
   border: none;
   cursor: pointer;
   transition: background-color 0.3s ease;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .btn-franchise {
+    padding: 14px 24px;
+  }
+}
+@media (min-width: 1200px) {
+  .btn-franchise {
+    padding: 14px 24px;
+  }
 }
 
 .btn-span {
