@@ -11,7 +11,17 @@
   --coffee: #F0D1A5;
 }
 
-h1, h2, h3, p, ul, li, input, button, img, a, body {
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+input,
+button,
+img,
+a,
+body {
   margin: 0;
   padding: 0;
 }
@@ -28,7 +38,8 @@ a {
   text-decoration: none;
 }
 
-ul, li {
+ul,
+li {
   text-decoration: none;
   list-style: none;
 }
@@ -42,7 +53,7 @@ ul, li {
   margin: 0 auto;
   width: 320px;
   padding: 0px 15px;
-  outline: 2px solid transparent;
+  outline: 2px solid red;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
   .container {
@@ -194,6 +205,8 @@ ul, li {
 .header-menu-close {
   color: white;
   position: relative;
+  bottom: 380px;
+  left: 145px;
 }
 
 .is-hidden {
@@ -214,7 +227,13 @@ ul, li {
   width: 100vw;
   height: 100vh;
   padding: 48px 40px;
-  z-index: 999;
+  z-index: 3;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .header-menu {
+    width: 90vw;
+    height: 90vw;
+  }
 }
 
 .header-menu-imgopn {
@@ -249,6 +268,10 @@ ul, li {
   padding: 70px 70px;
 }
 
+.btn-span {
+  margin-left: 9px;
+}
+
 .header-menu-btn {
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
@@ -258,10 +281,10 @@ ul, li {
   text-align: center;
   vertical-align: middle;
   color: #D41443;
-  padding: 11px 48px;
+  padding: 13px 60px;
   border-radius: 22px;
   margin-top: 60px;
-  margin-left: 40px;
+  margin-left: 25px;
 }
 
 .header-menu-list {
@@ -292,16 +315,23 @@ ul, li {
   position: relative;
   padding-top: 193px;
   padding-bottom: 160px;
+  background-image: url(../images/circle-tablet-back.png);
+  background-size: 350px;
+  background-repeat: no-repeat;
+  background-position: 20px;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
   .hero {
     padding-bottom: 0;
     padding-top: 0;
+    background-position: 360px;
   }
 }
 @media (min-width: 1200px) {
   .hero {
     padding-bottom: 0;
+    background-size: 591px;
+    background-position: 420px;
   }
 }
 
@@ -309,7 +339,6 @@ ul, li {
   position: absolute;
   left: 38%;
   bottom: 2px;
-  z-index: 2;
   width: 171px;
   height: 410px;
 }
@@ -326,7 +355,7 @@ ul, li {
   .hero-back-img {
     display: flex;
     position: absolute;
-    margin-left: 140px;
+    margin-left: 90px;
     width: 236px;
     height: 557px;
   }
@@ -378,23 +407,12 @@ ul, li {
 }
 @media (min-width: 768px) and (max-width: 1199px) {
   .hero-giiirl-tablet {
-    z-index: 2;
     display: flex;
     position: absolute;
     width: 168px;
     height: 133px;
-    left: 580px;
+    left: 680px;
     top: 266px;
-  }
-}
-@media (min-width: 1200px) {
-  .hero-giiirl-tablet {
-    display: flex;
-    position: absolute;
-    width: 293px;
-    height: 232px;
-    top: 505px;
-    left: 1015px;
   }
 }
 
@@ -423,7 +441,6 @@ ul, li {
 
 .hero-ice-title {
   position: relative;
-  z-index: 3;
   color: white;
   font-family: "Titan One", sans-serif;
   font-weight: 400;
@@ -452,7 +469,6 @@ ul, li {
 
 .hero-passion {
   position: relative;
-  z-index: 3;
   color: #d41443;
   font-family: "Titan One", sans-serif;
   font-weight: 400;
@@ -484,7 +500,6 @@ ul, li {
 .hero-btn-list {
   display: flex;
   position: relative;
-  z-index: 3;
 }
 
 .hero-ice-btn {
@@ -632,7 +647,6 @@ ul, li {
     position: relative;
     bottom: 48px;
     margin-right: 34px;
-    z-index: 3;
   }
 }
 @media (min-width: 1200px) {
@@ -1242,10 +1256,26 @@ ul, li {
 .location .location-item {
   background-color: white;
   border-radius: 24px;
-  padding: 330px 572px;
   box-shadow: 0px 8px 30px 0px rgba(212, 20, 67, 0.1);
-  font-family: "DM Sans", sans-serif;
+  padding: 43px 20px;
+  font-family: "DM Sans", "sans-serif";
   text-align: left;
+  margin-bottom: 20px;
+  width: 220px;
+  align-self: center;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .location .location-item {
+    padding: 50px 31px;
+    margin-bottom: 81px;
+  }
+}
+@media (min-width: 1200px) {
+  .location .location-item {
+    padding: 62px 43px;
+    width: 330px;
+    margin-bottom: 86px;
+  }
 }
 .location .location-type {
   font-family: "DM Sans", sans-serif;
@@ -1261,6 +1291,18 @@ ul, li {
   text-align: center;
   vertical-align: middle;
 }
+@media (min-width: 768px) and (max-width: 1199px) {
+  .location .location-type {
+    font-size: 16px;
+    padding: 0px 16px;
+  }
+}
+@media (min-width: 1200px) {
+  .location .location-type {
+    font-size: 16px;
+    padding: 0px 16px;
+  }
+}
 .location .location-type-cafe {
   font-family: "DM Sans";
   font-weight: 500;
@@ -1268,86 +1310,238 @@ ul, li {
   line-height: 186%;
   letter-spacing: 4%;
   text-align: left;
-  align-items: middle;
+  display: inline-block;
   color: #fff;
   background-color: rgb(240, 209, 165);
+  padding: 0px 32px;
+  border-radius: 4px;
+  margin-bottom: 14px;
 }
-.location .location-type-foodtrack {
+@media (min-width: 768px) and (max-width: 1199px) {
+  .location .location-type-cafe {
+    font-size: 16px;
+    padding: 0px 16px;
+  }
+}
+@media (min-width: 1200px) {
+  .location .location-type-cafe {
+    font-size: 16px;
+    padding: 0px 16px;
+  }
+}
+.location .location-type-foodtruck {
   font-family: "DM Sans";
   font-weight: 500;
   font-size: 12px;
   line-height: 186%;
   letter-spacing: 4%;
   text-align: left;
-  vertical-align: middle;
+  display: inline-block;
   color: #fff;
   background-color: rgb(194, 226, 151);
+  padding: 0px 32px;
+  border-radius: 4px;
+  margin-bottom: 14px;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .location .location-type-foodtruck {
+    font-size: 16px;
+    padding: 0px 16px;
+  }
+}
+@media (min-width: 1200px) {
+  .location .location-type-foodtruck {
+    font-size: 16px;
+    padding: 0px 16px;
+  }
 }
 .location .location-city {
-  font-family: DM Sans;
+  font-family: "DM Sans";
   font-weight: 500;
   font-size: 12px;
   line-height: 186%;
   letter-spacing: 4%;
   color: rgb(0, 0, 0);
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
-.location .location-text p {
-  font-family: DM Sans;
+@media (min-width: 768px) and (max-width: 1199px) {
+  .location .location-city {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1200px) {
+  .location .location-city {
+    font-size: 16px;
+  }
+}
+
+.french-text {
+  font-family: "DM Sans";
   font-weight: 500;
   font-size: 12px;
   line-height: 18px;
   letter-spacing: 0%;
   color: rgb(144, 126, 130);
-  margin-bottom: 8px;
+  margin-bottom: 25px;
 }
-.location .time-title {
-  font-family: DM Sans;
+@media (min-width: 768px) and (max-width: 1199px) {
+  .french-text {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1200px) {
+  .french-text {
+    font-size: 16px;
+  }
+}
+
+.time-title {
+  margin-top: 24px;
+  border-top: 1px solid #e1e1e1;
+  padding-top: 16px;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .time-title {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1200px) {
+  .time-title {
+    font-size: 16px;
+    margin-top: 32px;
+  }
+}
+
+.time-title-text {
+  font-family: "DM Sans";
   font-weight: 500;
   font-size: 12px;
   line-height: 186%;
   letter-spacing: 0%;
   color: rgb(0, 0, 0);
-  margin-top: 16px;
-  margin-bottom: 4px;
+  margin-bottom: 0px;
 }
-.location .time {
-  font-family: DM Sans;
+@media (min-width: 768px) and (max-width: 1199px) {
+  .time-title-text {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1200px) {
+  .time-title-text {
+    font-size: 16px;
+  }
+}
+
+.time {
+  font-family: "DM Sans";
   font-weight: 500;
   font-size: 12px;
   line-height: 186%;
   letter-spacing: 0%;
   color: rgb(255, 165, 186);
-  margin: 0;
+  margin-bottom: 10px;
 }
-.location .location-contact {
+@media (min-width: 768px) and (max-width: 1199px) {
+  .time {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1200px) {
+  .time {
+    font-size: 16px;
+  }
+}
+
+.time2 {
+  font-family: "DM Sans";
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 186%;
+  letter-spacing: 0%;
+  color: rgb(255, 165, 186);
+  margin-bottom: 25px;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .time2 {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1200px) {
+  .time2 {
+    font-size: 16px;
+  }
+}
+
+.location-contact {
   margin-top: 24px;
   border-top: 1px solid #e1e1e1;
   padding-top: 16px;
 }
-.location .location-contact-text {
-  color: rgb(144, 126, 130);
-  margin: 0;
-  font-family: DM Sans;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 100%;
-  letter-spacing: 0%;
-  text-align: center;
-  vertical-align: middle;
+@media (min-width: 1200px) {
+  .location-contact {
+    font-size: 16px;
+    margin-top: 32px;
+  }
 }
-.location .location-buttons {
+
+.location-contact-text {
+  color: rgb(144, 126, 130);
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0%;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .location-contact-text {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1200px) {
+  .location-contact-text {
+    font-size: 16px;
+  }
+}
+
+.location-contact-text2 {
+  color: rgb(144, 126, 130);
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0%;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .location-contact-text2 {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1200px) {
+  .location-contact-text2 {
+    font-size: 16px;
+  }
+}
+
+.location-buttons {
   margin-top: 40px;
   display: flex;
   flex-direction: column;
   gap: 12px;
   align-items: center;
+  margin-bottom: 165px;
 }
-@media (min-width: 768px) {
-  .location .location-buttons {
+@media (min-width: 768px) and (max-width: 1199px) {
+  .location-buttons {
+    font-size: 16px;
     flex-direction: row;
-    justify-content: center;
-    gap: 16px;
+    margin-left: 196px;
+  }
+}
+@media (min-width: 1200px) {
+  .location-buttons {
+    font-size: 16px;
+    flex-direction: row;
+    margin-left: 443px;
   }
 }
 
@@ -1356,7 +1550,7 @@ ul, li {
   color: #fff;
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 16px;
   padding: 12px 24px;
   border-radius: 20px;
   border: none;
@@ -1370,16 +1564,57 @@ ul, li {
   border: 1px solid #d41443;
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
-  font-size: 14px;
-  padding: 12px 24px;
+  font-size: 16px;
+  padding: 14px 32px;
   border-radius: 20px;
   border: none;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
+@media (min-width: 768px) and (max-width: 1199px) {
+  .btn-franchise {
+    padding: 14px 24px;
+  }
+}
+@media (min-width: 1200px) {
+  .btn-franchise {
+    padding: 14px 24px;
+  }
+}
 
 .btn-span {
   font-weight: 700;
+}
+
+/*modal*/
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 528px;
+  height: 581px;
+  background-color: white;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.is-hidden {
+  display: none;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
 }
 
 .footer {

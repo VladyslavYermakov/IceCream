@@ -123,6 +123,8 @@ border-radius: 22px;
 .header-menu-close{
 color: white;
 position: relative;
+bottom: 380px;
+left: 145px;
 }
 .is-hidden {
     opacity: 0;
@@ -140,7 +142,11 @@ position: relative;
    width: 100vw;
 height:100vh;
     padding: 48px 40px;
-    z-index: 999;
+    z-index: 3;
+     @media (min-width: 768px) and (max-width: 1199px) {
+ width: 90vw;
+ height: 90vw;
+    }
 }
 .header-menu-imgopn{
 position: relative;
@@ -169,6 +175,9 @@ margin-top: 23px;
     z-index: 2;
     padding: 70px 70px;
 }
+.btn-span{
+    margin-left: 9px;
+}
 .header-menu-btn{
     font-family: "DM Sans",sans-serif;
 font-weight: 700;
@@ -178,10 +187,10 @@ letter-spacing: 0%;
 text-align: center;
 vertical-align: middle;
 color:#D41443;
-padding:11px 48px;
+padding:13px 60px;
 border-radius: 22px;
 margin-top: 60px;
-margin-left: 40px;
+margin-left: 25px;
 }
 .header-menu-list{
 margin-top: 19px;
