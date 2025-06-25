@@ -1123,9 +1123,11 @@ li {
   border-radius: 24px;
   box-shadow: 0px 8px 30px 0px rgba(212, 20, 67, 0.1);
   padding: 43px 20px;
-  font-family: "DM Sans", sans-serif;
+  font-family: "DM Sans", "sans-serif";
   text-align: left;
-  margin-bottom: 86px;
+  margin-bottom: 20px;
+  width: 220px;
+  align-self: center;
 }
 @media (min-width: 768px) {
   .location .location-item {
@@ -1161,9 +1163,11 @@ li {
   display: inline-block;
   color: #fff;
   background-color: rgb(240, 209, 165);
-  margin-bottom: 32px;
+  padding: 0px 32px;
+  border-radius: 4px;
+  margin-bottom: 14px;
 }
-.location .location-type-foodtrack {
+.location .location-type-foodtruck {
   font-family: "DM Sans";
   font-weight: 500;
   font-size: 12px;
@@ -1173,7 +1177,9 @@ li {
   display: inline-block;
   color: #fff;
   background-color: rgb(194, 226, 151);
-  margin-bottom: 32px;
+  padding: 0px 32px;
+  border-radius: 4px;
+  margin-bottom: 14px;
 }
 .location .location-city {
   font-family: "DM Sans";
@@ -1184,16 +1190,21 @@ li {
   color: rgb(0, 0, 0);
   margin-bottom: 10px;
 }
-.location .location-text p {
+.location .french-text {
   font-family: "DM Sans";
   font-weight: 500;
   font-size: 12px;
   line-height: 18px;
   letter-spacing: 0%;
   color: rgb(144, 126, 130);
-  margin-bottom: 64px;
+  margin-bottom: 25px;
 }
 .location .time-title {
+  margin-top: 24px;
+  border-top: 1px solid #e1e1e1;
+  padding-top: 16px;
+}
+.location .time-title-text {
   font-family: "DM Sans";
   font-weight: 500;
   font-size: 12px;
@@ -1209,7 +1220,7 @@ li {
   line-height: 186%;
   letter-spacing: 0%;
   color: rgb(255, 165, 186);
-  margin: 15px;
+  margin-bottom: 10px;
 }
 .location .time2 {
   font-family: "DM Sans";
@@ -1218,7 +1229,7 @@ li {
   line-height: 186%;
   letter-spacing: 0%;
   color: rgb(255, 165, 186);
-  margin: 64px;
+  margin-bottom: 25px;
 }
 .location .location-contact {
   margin-top: 24px;
@@ -1229,12 +1240,17 @@ li {
   color: rgb(144, 126, 130);
   font-family: "DM Sans";
   font-weight: 700;
-  font-size: 16px;
-  line-height: 100%;
+  font-size: 12px;
+  line-height: 18px;
   letter-spacing: 0%;
-  text-align: center;
-  vertical-align: middle;
-  margin-bottom: 62px;
+}
+.location .location-contact-text2 {
+  color: rgb(144, 126, 130);
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0%;
 }
 .location .location-buttons {
   margin-top: 40px;
