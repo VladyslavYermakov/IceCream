@@ -3,19 +3,25 @@
   position: relative;
   padding-top: 193px;
   padding-bottom: 160px;
+  background-image:url(../images/circle-tablet-back.png);
+background-size: 350px;
+background-repeat: no-repeat;
+background-position: 20px;
   @media (min-width: 768px) and (max-width: 1199px) {
     padding-bottom: 0;
     padding-top: 0;
+    background-position: 360px;
   }
   @media (min-width: 1200px) {
     padding-bottom: 0;
+    background-size: 591px;
+    background-position: 420px;
   }
 }
 .hero-back-img {
   position: absolute;
   left: 38%;
   bottom: 2px;
-  z-index: 2;
   width: 171px;
   height: 410px;
   @media (min-width: 768px) and (max-width: 1199px) {
@@ -28,7 +34,7 @@
   @media (min-width: 1200px) {
     display: flex;
     position: absolute;
-    margin-left: 140px;
+    margin-left: 90px;
     width: 236px;
     height: 557px;
   }
@@ -69,23 +75,13 @@
 .hero-giiirl-tablet {
   display: none;
   @media (min-width: 768px) and (max-width: 1199px) {
-    z-index: 2;
     display: flex;
     position: absolute;
     width: 168px;
     height: 133px;
-    left: 580px;
+    left: 680px;
     top: 266px;
   }
-    @media (min-width: 1200px) {
- display: flex;
- position: absolute;
- width: 293px;
-height: 232px;
-top: 505px;
-left: 1015px;
-  }
-
 }
 .hero-ice {
   @media (min-width: 768px) and (max-width: 1199px) {
@@ -107,7 +103,6 @@ left: 1015px;
 
 .hero-ice-title {
   position: relative;
-  z-index: 3;
   color: white;
   font-family: 'Titan One', sans-serif;
   font-weight: 400;
@@ -131,7 +126,6 @@ left: 1015px;
 }
 .hero-passion {
   position: relative;
-  z-index: 3;
   color: #d41443;
   font-family: 'Titan One', sans-serif;
   font-weight: 400;
@@ -158,7 +152,7 @@ left: 1015px;
 .hero-btn-list {
   display: flex;
   position: relative;
-  z-index: 3;
+
 }
 .hero-ice-btn {
   color: white;
@@ -284,7 +278,6 @@ left: 1015px;
     position: relative;
     bottom: 48px;
     margin-right: 34px;
-    z-index: 3;
   }
   @media (min-width: 1200px) {
     display: flex;
