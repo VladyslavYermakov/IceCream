@@ -21,7 +21,7 @@
     border-radius: 24px;
     box-shadow: 0px 8px 30px 0px rgba(212, 20, 67, 0.1);
     padding: 43px 20px;
-    font-family: 'DM Sans', 'sans-serif';
+    font-family: 'DM Sans', sans-serif;
     text-align: left;
     margin-bottom: 20px;
     width: 220px;
@@ -305,18 +305,26 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 528px;
-  height: 581px;
+  width: 270px;
+  height: 320px;
   background-color: white;
+  border-radius: 24px;
   transform: translate(-50%, -50%);
   z-index: 2;
   display: flex;
   flex-direction: column;
   padding: 40px;
-  border-radius: 4px;
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  @media (min-width: 768px) and (max-width: 1199px) {
+    width: 730px;
+    height: 600px;
+  }
+  @media (min-width: 1200px) {
+    width: 1000px;
+    height: 850px;
+  }
 }
 
 .is-hidden {
@@ -328,4 +336,56 @@
   left: 0;
   width: 100vw;
   height: 100vh;
+}
+
+.google-map{
+  border-radius: 24px;
+  width: 192px;
+  height: 280px;
+  @media (min-width: 768px) and (max-width: 1199px) {
+    width: 650px;
+    height: 500px;
+  }
+  @media (min-width: 1200px) {
+    width: 920px;
+    height: 700px;
+  }
+}
+
+.modal-own-text{
+  font-family: 'Titan One';
+  color: var(--pink);
+  font-size: 20px;
+  text-align: center;
+  margin-top: 25px;
+  @media (min-width: 768px) and (max-width: 1199px) {
+    font-size: 50px;
+    margin-top: 20px;
+  }
+  @media (min-width: 1200px) {
+    font-size: 64px;
+  }
+}
+
+.location-modal-close{
+  position: absolute;
+  left: 235px;
+  top: 0px;
+  cursor: pointer;
+  font-family: 'DM sans';
+  font-weight: 800;
+  background-color: transparent;
+  padding: 10px 12px;
+  @media (min-width: 768px) and (max-width: 1199px) {
+    left: 690px;
+    font-size: 18px;
+  }
+  @media (min-width: 1200px) {
+    left: 958px;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  &:hover{
+    color: var(--red);
+  }
 }
