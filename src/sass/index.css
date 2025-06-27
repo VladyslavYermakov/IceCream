@@ -792,6 +792,17 @@ li {
   text-transform: uppercase;
   margin-bottom: 20px;
 }
+@media (min-width: 320px) and (max-width: 767px) {
+  .production-h4 {
+    font-family: "Titan One";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
 
 .production-h2 {
   color: #D41443;
