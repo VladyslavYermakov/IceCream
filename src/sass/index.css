@@ -804,6 +804,17 @@ li {
   text-align: center;
   text-transform: uppercase;
 }
+@media (min-width: 320px) and (max-width: 767px) {
+  .production-h2 {
+    font-family: "Titan One";
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 100%;
+    letter-spacing: 4%;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
 
 .products-catalog {
   display: flex;
@@ -969,7 +980,6 @@ li {
 .cow {
   background-color: #FFF5F6;
   padding: 40px 20px;
-  text-align: center;
   background-image: url(../images/cow-bg.png);
   background-repeat: no-repeat;
   background-position: center 370px;
@@ -993,6 +1003,17 @@ li {
   margin-bottom: 25px;
   margin-top: 125px;
 }
+@media (min-width: 768px) and (max-width: 1199px) {
+  .cow-h4 {
+    font-family: "Titan One";
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
 
 .cow-h2 {
   color: #D41443;
@@ -1004,6 +1025,17 @@ li {
   text-align: center;
   text-transform: uppercase;
 }
+@media (min-width: 768px) and (max-width: 1199px) {
+  .cow-h2 {
+    font-family: "Titan One";
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 4%;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
 
 .cow-wrap {
   display: flex;
@@ -1011,12 +1043,27 @@ li {
   justify-content: center;
   gap: 30px;
 }
+@media (min-width: 768px) and (max-width: 1199px) {
+  .cow-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+}
 
 .cow-image-side img {
   width: 516px;
   border-radius: 10px;
   margin-left: 50px;
   margin-top: 50px;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .cow-image-side img {
+    width: 340px;
+    margin-left: 0px;
+    margin-bottom: 77px;
+  }
 }
 
 .cow-text {
@@ -1032,6 +1079,19 @@ li {
   margin-right: 70px;
   margin-left: 70px;
 }
+@media (min-width: 768px) and (max-width: 1199px) {
+  .cow-text {
+    font-family: "DM Sans";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 176%;
+    letter-spacing: 0%;
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 17px;
+    margin-bottom: 25px;
+  }
+}
 
 .cow-instruction {
   color: #907E82;
@@ -1043,6 +1103,17 @@ li {
   text-align: left;
   margin-right: 70px;
   margin-left: 70px;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .cow-instruction {
+    font-family: "DM Sans";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 176%;
+    letter-spacing: 4%;
+    margin-left: 10px;
+    margin-right: 33px;
+  }
 }
 
 .cow-more {
@@ -1060,6 +1131,13 @@ li {
   color: #D41443;
   margin-top: 35px;
   margin-left: 65px;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .cow-more {
+    margin-left: 0px;
+    margin-top: 50px;
+    margin-bottom: 63px;
+  }
 }
 
 .cow-list {
@@ -1083,6 +1161,15 @@ li {
   margin-top: 15px;
   margin-bottom: 15px;
 }
+@media (min-width: 768px) and (max-width: 1199px) {
+  .cow-value {
+    font-family: "Titan One";
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 4%;
+  }
+}
 
 .cow-label {
   font-family: "DM Sans";
@@ -1092,11 +1179,27 @@ li {
   letter-spacing: 2%;
   text-align: left;
 }
+@media (min-width: 768px) and (max-width: 1199px) {
+  .cow-label {
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 174%;
+    letter-spacing: 0%;
+    margin-right: 10px;
+  }
+}
 
 .cow-img2 {
   width: 50px;
   height: 50px;
   margin-bottom: 40px;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .cow-img2 {
+    width: 44;
+    height: 50;
+  }
 }
 
 .gallery {

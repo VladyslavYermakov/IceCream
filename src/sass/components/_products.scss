@@ -27,7 +27,18 @@ line-height: 100%;
 letter-spacing: 6%;
 text-align: center;
 text-transform: uppercase;
+   @media (min-width: 320px) and (max-width: 767px) {
+font-family: "Titan One";
+font-weight: 400;
+font-size: 34px;
+line-height: 100%;
+letter-spacing: 4%;
+text-align: center;
+text-transform: uppercase;
+
 }
+}
+
 .products-catalog{
     display: flex;
     flex-direction: column;
