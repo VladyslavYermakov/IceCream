@@ -236,6 +236,17 @@ li {
     display: none;
   }
 }
+<<<<<<< Updated upstream
+=======
+@media (min-width: 768px) and (max-width: 1199px) {
+  .header-menu-imgopn {
+    position: relative;
+    margin-left: 245px;
+    margin-top: 23px;
+  }
+}
+
+>>>>>>> Stashed changes
 .header-menu-close {
   background-color: black;
   transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
