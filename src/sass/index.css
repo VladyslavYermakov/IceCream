@@ -1980,8 +1980,8 @@ li {
   .phone {
     font-size: 14px;
     position: absolute;
-    top: 5415px;
-    right: 250px;
+    top: 4495px;
+    right: 145px;
   }
 }
 @media (min-width: 1200px) {
@@ -2083,8 +2083,8 @@ li {
   .footer-list {
     gap: 30px;
     position: absolute;
-    top: 5350px;
-    right: 250px;
+    top: 4430px;
+    right: 145px;
   }
 }
 @media (min-width: 1200px) {
