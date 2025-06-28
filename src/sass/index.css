@@ -210,18 +210,18 @@ ul, li {
 .header-menu {
   background-color: #E17992;
   position: absolute;
-  right: 0;
+  left: 0;
   top: 0;
   display: block;
   width: 100vw;
   height: 100vh;
   padding: 48px 40px;
-  z-index: 3;
+  z-index: 999;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
   .header-menu {
-    width: 90vw;
-    height: 90vw;
+    width: 319px;
+    height: 100vh;
   }
 }
 
@@ -378,6 +378,7 @@ ul, li {
     height: 322px;
     transform: translateX(95%);
     bottom: 36px;
+    background-position: center;
   }
 }
 @media (min-width: 1200px) {
@@ -388,6 +389,7 @@ ul, li {
     transform: translateY(-125px);
     width: 600px;
     height: 600px;
+    background-position: center;
   }
 }
 
@@ -400,7 +402,7 @@ ul, li {
     position: absolute;
     width: 168px;
     height: 133px;
-    left: 680px;
+    left: 75%;
     top: 266px;
   }
 }
