@@ -989,16 +989,24 @@ li {
 
 .cow {
   background-color: #FFF5F6;
-  padding: 40px 20px;
   background-image: url(../images/cow-bg.png);
   background-repeat: no-repeat;
-  background-position: center 370px;
-  padding-bottom: 140px;
+  /*background-position: center 370px;*/
+  padding-top: 125px;
+  padding-bottom: 145px;
+  background-size: auto;
 }
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 768px) and (max-width: 1199px) {
   .cow {
-    background-image: url(../images/cow-bg.png);
-    background-repeat: no-repeat;
+    padding-top: 130px;
+    padding-bottom: 246px;
+  }
+}
+@media (min-width: 1200px) {
+  .cow {
+    background-position: center;
+    padding-bottom: 310px;
+    padding-top: 125px;
   }
 }
 
@@ -1006,34 +1014,23 @@ li {
   color: #FFA5BA;
   font-family: "Titan One";
   font-weight: 400;
-  font-size: 30px;
+  font-size: 18px;
   line-height: 100%;
-  letter-spacing: 4%;
+  letter-spacing: 0%;
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 25px;
-  margin-top: 125px;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
   .cow-h4 {
-    font-family: "Titan One";
-    font-weight: 400;
     font-size: 26px;
-    line-height: 100%;
     letter-spacing: 0%;
-    text-align: center;
-    text-transform: uppercase;
   }
 }
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 1200px) and (max-width: 767px) {
   .cow-h4 {
-    font-family: "Titan One";
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 100%;
-    letter-spacing: 0%;
-    text-align: center;
-    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 4%;
   }
 }
 
@@ -1041,76 +1038,60 @@ li {
   color: #D41443;
   font-family: "Titan One";
   font-weight: 400;
-  font-size: 58px;
+  font-size: 34px;
   line-height: 100%;
-  letter-spacing: 6%;
+  letter-spacing: 4%;
   text-align: center;
   text-transform: uppercase;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
   .cow-h2 {
-    font-family: "Titan One";
-    font-weight: 400;
     font-size: 48px;
-    line-height: 100%;
-    letter-spacing: 4%;
-    text-align: center;
-    text-transform: uppercase;
   }
 }
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 1200px) {
   .cow-h2 {
-    font-family: "Titan One";
-    font-weight: 400;
-    font-size: 34px;
-    line-height: 100%;
-    letter-spacing: 4%;
-    text-align: center;
-    text-transform: uppercase;
+    font-size: 58px;
+    letter-spacing: 6%;
   }
 }
 
 .cow-wrap {
-  display: flex;
   align-items: center;
   justify-content: center;
-  gap: 30px;
+  display: block;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
   .cow-wrap {
     display: flex;
-    align-items: center;
-    justify-content: center;
     gap: 15px;
   }
 }
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 1200px) {
   .cow-wrap {
-    align-items: center;
-    justify-content: center;
-    display: block;
+    display: flex;
+    gap: 30px;
   }
 }
 
 .cow-image-side img {
-  width: 516px;
-  border-radius: 10px;
-  margin-left: 50px;
-  margin-top: 50px;
+  width: 280px;
+  margin-left: 0;
+  margin-top: 20px;
+  margin-bottom: 46px;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
   .cow-image-side img {
     width: 340px;
-    margin-left: 0px;
     margin-bottom: 77px;
   }
 }
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 1200px) {
   .cow-image-side img {
-    width: 280px;
-    margin-left: 0;
-    margin-top: 20px;
-    margin-bottom: 46px;
+    width: 516px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 50px;
   }
 }
 
@@ -1118,39 +1099,34 @@ li {
   color: #000000;
   font-family: "DM Sans";
   font-weight: 500;
-  font-size: 16px;
-  line-height: 176%;
-  letter-spacing: 4%;
-  text-align: left;
-  margin-bottom: 35px;
-  margin-top: 50px;
-  margin-right: 70px;
-  margin-left: 70px;
+  font-size: 12px;
+  line-height: 162%;
+  letter-spacing: 0%;
+  margin-bottom: 22px;
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-top: 0px;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
   .cow-text {
-    font-family: "DM Sans";
-    font-weight: 500;
     font-size: 14px;
     line-height: 176%;
-    letter-spacing: 0%;
     margin-top: 100px;
-    margin-left: 10px;
-    margin-right: 17px;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-bottom: 25px;
   }
 }
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 1200px) {
   .cow-text {
-    font-family: "DM Sans";
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 162%;
-    letter-spacing: 0%;
-    margin-bottom: 22px;
-    margin-left: 31px;
-    margin-right: 30px;
-    margin-top: 0px;
+    font-size: 16px;
+    line-height: 176%;
+    letter-spacing: 4%;
+    text-align: left;
+    margin-bottom: 35px;
+    margin-top: 50px;
+    margin-right: 70px;
+    margin-left: 70px;
   }
 }
 
@@ -1158,76 +1134,83 @@ li {
   color: #907E82;
   font-family: "DM Sans";
   font-weight: 500;
-  font-size: 14px;
-  line-height: 194%;
-  letter-spacing: 4%;
-  text-align: left;
-  margin-right: 70px;
-  margin-left: 70px;
+  font-size: 12px;
+  line-height: 162%;
+  letter-spacing: 0%;
+  margin-left: 44px;
+  margin-right: 44px;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
   .cow-instruction {
-    font-family: "DM Sans";
-    font-weight: 500;
     font-size: 14px;
     line-height: 176%;
     letter-spacing: 4%;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-right: 33px;
   }
 }
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 1200px) {
   .cow-instruction {
-    font-family: "DM Sans";
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 162%;
-    letter-spacing: 0%;
-    margin-left: 30px;
-    margin-right: 38px;
+    font-size: 14px;
+    line-height: 194%;
+    letter-spacing: 4%;
+    text-align: left;
+    margin-right: 70px;
+    margin-left: 70px;
   }
 }
 
 .cow-more {
-  display: block;
   background-color: #fff;
-  padding-top: 14px;
-  padding-bottom: 14px;
-  padding-left: 37px;
-  padding-right: 37px;
   border-radius: 22px;
   font-family: "DM Sans";
   font-weight: 700;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
   color: #D41443;
   margin-top: 35px;
-  margin-left: 65px;
+  margin-left: 30px;
+  padding: 14px 37px;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
   .cow-more {
     margin-left: 0px;
     margin-top: 50px;
     margin-bottom: 63px;
+    margin-right: 5px;
   }
 }
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 1200px) {
   .cow-more {
-    margin-left: 26px;
+    display: block;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 37px;
+    padding-right: 37px;
+    font-size: 16px;
     margin-top: 25px;
     margin-bottom: 39px;
+    margin-left: 60px;
   }
 }
 
 .cow-list {
-  display: flex;
+  display: block;
+  padding: 0 15px;
   gap: 30px;
-  padding: 0 20px;
 }
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 768px) and (max-width: 1199px) {
   .cow-list {
-    display: block;
-    padding: 0 15px;
+    display: flex;
+    padding: 0 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .cow-list {
+    display: flex;
+    padding: 0 20px;
   }
 }
 
@@ -1241,66 +1224,66 @@ li {
   color: #D41443;
   font-family: "Titan One";
   font-weight: 400;
-  font-size: 58px;
+  font-size: 36px;
   line-height: 100%;
-  margin-top: 15px;
+  letter-spacing: 4%;
+  text-transform: uppercase;
   margin-bottom: 15px;
+  margin-top: 20px;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
   .cow-value {
-    font-family: "Titan One";
-    font-weight: 400;
     font-size: 48px;
-    line-height: 100%;
-    letter-spacing: 4%;
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
 }
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 1200px) {
   .cow-value {
-    font-family: "Titan One";
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 100%;
-    letter-spacing: 4%;
-    text-transform: uppercase;
+    font-size: 58px;
+    margin-top: 0;
+    margin-bottom: 17px;
   }
 }
 
 .cow-label {
   font-family: "DM Sans";
   font-weight: 700;
-  font-size: 16px;
-  line-height: 176%;
-  letter-spacing: 2%;
+  font-size: 12px;
+  line-height: 170%;
+  letter-spacing: 0%;
   text-align: left;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
   .cow-label {
-    font-family: "DM Sans";
-    font-weight: 700;
     font-size: 14px;
     line-height: 174%;
-    letter-spacing: 0%;
     margin-right: 10px;
+    margin-bottom: 15px;
   }
 }
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 1200px) {
   .cow-label {
-    font-family: "DM Sans";
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 170%;
-    letter-spacing: 0%;
+    font-size: 16px;
+    line-height: 176%;
+    letter-spacing: 2%;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
 
 .cow-img2 {
-  margin-bottom: 40px;
+  margin-bottom: 12px;
+  margin-top: 42px;
 }
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 768px) and (max-width: 1199px) {
   .cow-img2 {
-    margin-bottom: 12px;
-    margin-top: 42px;
+    margin-bottom: 36px;
+  }
+}
+@media (min-width: 1200px) {
+  .cow-img2 {
+    margin-bottom: 40px;
   }
 }
 
