@@ -1237,7 +1237,7 @@ li {
 
 .location {
   background-color: #fff5f6;
-  padding: 120px 0;
+  padding: 100px 0px;
 }
 .location .location-list {
   display: flex;
@@ -1528,13 +1528,14 @@ li {
   flex-direction: column;
   gap: 12px;
   align-items: center;
-  margin-bottom: 165px;
+  margin-bottom: 113px;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
   .location-buttons {
     font-size: 16px;
     flex-direction: row;
     margin-left: 196px;
+    margin-bottom: 158px;
   }
 }
 @media (min-width: 1200px) {
@@ -1542,6 +1543,7 @@ li {
     font-size: 16px;
     flex-direction: row;
     margin-left: 443px;
+    margin-bottom: 165px;
   }
 }
 
@@ -1787,7 +1789,7 @@ li {
 @media (min-width: 1200px) {
   .phone {
     position: absolute;
-    top: 5100px;
+    top: 5060px;
     right: 200px;
   }
 }
@@ -1890,7 +1892,7 @@ li {
 @media (min-width: 1200px) {
   .footer-list {
     position: absolute;
-    top: 5030px;
+    top: 5000px;
     right: 200px;
   }
 }
