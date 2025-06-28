@@ -91,8 +91,6 @@ li {
   .header-list {
     display: flex;
     position: relative;
-    left: 320px;
-    bottom: 40px;
   }
 }
 
@@ -141,8 +139,7 @@ li {
   .header-btn {
     display: inline-block;
     position: absolute;
-    left: 591px;
-    top: 20px;
+    left: 540px;
     font-family: "DM Sans", sans-serif;
     font-weight: 700;
     font-size: 13px;
@@ -161,7 +158,7 @@ li {
     display: flex;
     position: absolute;
     left: 970px;
-    bottom: 30px;
+    bottom: 9px;
     font-family: "DM Sans", sans-serif;
     font-weight: 700;
     font-size: 13px;
