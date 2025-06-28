@@ -1024,6 +1024,17 @@ li {
     text-transform: uppercase;
   }
 }
+@media (min-width: 320px) and (max-width: 767px) {
+  .cow-h4 {
+    font-family: "Titan One";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
 
 .cow-h2 {
   color: #D41443;
@@ -1046,6 +1057,17 @@ li {
     text-transform: uppercase;
   }
 }
+@media (min-width: 320px) and (max-width: 767px) {
+  .cow-h2 {
+    font-family: "Titan One";
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 100%;
+    letter-spacing: 4%;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
 
 .cow-wrap {
   display: flex;
@@ -1061,6 +1083,13 @@ li {
     gap: 15px;
   }
 }
+@media (min-width: 320px) and (max-width: 767px) {
+  .cow-wrap {
+    align-items: center;
+    justify-content: center;
+    display: block;
+  }
+}
 
 .cow-image-side img {
   width: 516px;
@@ -1073,6 +1102,14 @@ li {
     width: 340px;
     margin-left: 0px;
     margin-bottom: 77px;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .cow-image-side img {
+    width: 280px;
+    margin-left: 0;
+    margin-top: 20px;
+    margin-bottom: 46px;
   }
 }
 
@@ -1102,6 +1139,19 @@ li {
     margin-bottom: 25px;
   }
 }
+@media (min-width: 320px) and (max-width: 767px) {
+  .cow-text {
+    font-family: "DM Sans";
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 162%;
+    letter-spacing: 0%;
+    margin-bottom: 22px;
+    margin-left: 31px;
+    margin-right: 30px;
+    margin-top: 0px;
+  }
+}
 
 .cow-instruction {
   color: #907E82;
@@ -1123,6 +1173,17 @@ li {
     letter-spacing: 4%;
     margin-left: 10px;
     margin-right: 33px;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .cow-instruction {
+    font-family: "DM Sans";
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 162%;
+    letter-spacing: 0%;
+    margin-left: 30px;
+    margin-right: 38px;
   }
 }
 
@@ -1149,11 +1210,24 @@ li {
     margin-bottom: 63px;
   }
 }
+@media (min-width: 320px) and (max-width: 767px) {
+  .cow-more {
+    margin-left: 26px;
+    margin-top: 25px;
+    margin-bottom: 39px;
+  }
+}
 
 .cow-list {
   display: flex;
   gap: 30px;
   padding: 0 20px;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .cow-list {
+    display: block;
+    padding: 0 15px;
+  }
 }
 
 .cow-item {
@@ -1180,6 +1254,16 @@ li {
     letter-spacing: 4%;
   }
 }
+@media (min-width: 320px) and (max-width: 767px) {
+  .cow-value {
+    font-family: "Titan One";
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 4%;
+    text-transform: uppercase;
+  }
+}
 
 .cow-label {
   font-family: "DM Sans";
@@ -1199,16 +1283,25 @@ li {
     margin-right: 10px;
   }
 }
+@media (min-width: 320px) and (max-width: 767px) {
+  .cow-label {
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 170%;
+    letter-spacing: 0%;
+  }
+}
 
 .cow-img2 {
   width: 50px;
   height: 50px;
   margin-bottom: 40px;
 }
-@media (min-width: 768px) and (max-width: 1199px) {
+@media (min-width: 320px) and (max-width: 767px) {
   .cow-img2 {
-    width: 44;
-    height: 50;
+    margin-bottom: 12px;
+    margin-top: 42px;
   }
 }
 
