@@ -40,8 +40,9 @@ li {
 
 .container {
   margin: 0 auto;
-  width: 320px;
+  width: 100%;
   padding: 0px 15px;
+  outline: 2px solid red;
   @media (min-width: 768px) and (max-width: 1199px) {
     width: 768px;
   }

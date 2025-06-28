@@ -51,8 +51,9 @@ li {
 
 .container {
   margin: 0 auto;
-  width: 320px;
+  width: 100%;
   padding: 0px 15px;
+  outline: 2px solid red;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
   .container {
@@ -188,8 +189,6 @@ li {
 
 /* modalka*/
 .header-menu-open {
-  padding: 50px 50px;
-  position: absolute;
   background-color: transparent;
   display: block;
   width: 40px;
@@ -235,24 +234,11 @@ li {
   }
 }
 
-.header-menu-imgopn {
-  position: relative;
-  bottom: 85.2px;
-  left: 225px;
-}
 @media (min-width: 1200px) {
   .header-menu-imgopn {
     display: none;
   }
 }
-@media (min-width: 768px) and (max-width: 1199px) {
-  .header-menu-imgopn {
-    position: relative;
-    margin-left: 245px;
-    margin-top: 23px;
-  }
-}
-
 .header-menu-close {
   background-color: black;
   transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -307,6 +293,12 @@ li {
 
 .header-menu-item {
   margin-bottom: 21px;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .hero {
