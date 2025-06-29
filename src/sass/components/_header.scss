@@ -17,8 +17,7 @@ display: none;
   @media (min-width: 1200px) {
        display: flex;
        position: relative;
-       left: 320px;
-       bottom: 40px;
+       
     }
 }
 
@@ -60,8 +59,7 @@ display: none;
   @media (min-width: 768px) and (max-width: 1199px) {
        display:inline-block;
        position: absolute;
-       left: 591px;
-       top: 29px;
+       left: 540px;
        font-family: "DM Sans",sans-serif;
 font-weight: 700;
 font-size: 13px;
@@ -78,7 +76,7 @@ border-radius: 22px;
     display: flex;
          position: absolute;
        left: 970px;
-       bottom: 30px;
+       bottom: 9px;
        font-family: "DM Sans",sans-serif;
 font-weight: 700;
 font-size: 13px;
@@ -108,8 +106,6 @@ border-radius: 22px;
 
 
 .header-menu-open {
-    padding: 50px 50px;
-    position: absolute;
     background-color: transparent;
     display: block;
     width: 40px;
@@ -136,29 +132,30 @@ left: 145px;
 .header-menu {
      background-color: #E17992;
     position: absolute;
-    right: 0;
+   left: 0;
     top: 0;
     display: block;
    width: 100vw;
 height:100vh;
     padding: 48px 40px;
-    z-index: 3;
+    z-index: 999;
      @media (min-width: 768px) and (max-width: 1199px) {
- width: 90vw;
- height: 90vw;
+ width: 319px;
+ height: 100vh;
     }
 }
 .header-menu-imgopn{
-position: relative;
-bottom: 85.2px;
-left: 225px;
  @media (min-width: 1200px) {
       display: none;
     }
     @media (min-width: 768px) and (max-width: 1199px) {
+<<<<<<< Updated upstream
+
+=======
   position: relative;
 margin-left: 245px;
 margin-top: 23px;
+>>>>>>> Stashed changes
     }
 }
 
@@ -210,4 +207,9 @@ color: #D41443;
 }
 .header-menu-item{
    margin-bottom: 21px;
+}
+.menu-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
