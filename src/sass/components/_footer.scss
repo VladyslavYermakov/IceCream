@@ -2,21 +2,23 @@
   background-color: #fff5f6;
   padding: 0px;
   @media (min-width: 768px) and (max-width: 1199px) {
-    padding: 0px;
   }
 
   @media (min-width: 1200px) {
-    padding: 0px;
   }
 
   .footer-content {
     display: flex;
     flex-direction: column;
     align-items: center;
+    @media (min-width: 768px) {
+      align-items: flex-start;
+      flex-direction: row;
+      justify-content: space-between;
+    }
   }
 
   .footer-title {
-    margin-left: 20px;
     font-family: 'Titan One';
     font-weight: 400;
     font-size: 18px;
@@ -26,20 +28,19 @@
     margin-right: 68px;
     color: rgba(255, 165, 186, 1);
 
-    @media (min-width: 768px) and (max-width: 1199px) {
+    @media (min-width: 768px) {
       font-size: 26px;
       letter-spacing: 4%;
-      margin-right: 396px;
+      margin-left: 0px;
     }
 
     @media (min-width: 1200px) {
       font-size: 30px;
       letter-spacing: 4%;
-      margin-right: 692px;
+      margin-bottom: 15px;
     }
   }
   .footer-subtitle {
-    margin-left: 20px;
     font-family: 'Titan One';
     font-weight: 400;
     font-size: 34px;
@@ -47,18 +48,14 @@
     letter-spacing: 4%;
     text-transform: uppercase;
     color: rgba(212, 20, 67, 1);
-    margin-right: 100px;
     @media (min-width: 768px) and (max-width: 1199px) {
       margin: 10px 0;
       font-size: 48px;
       letter-spacing: 6%;
-      margin-right: 396px;
-      margin-left: 20px;
     }
     @media (min-width: 1200px) {
       font-size: 58px;
       letter-spacing: 6%;
-      margin-right: 692px;
     }
   }
 }
@@ -71,18 +68,12 @@
   letter-spacing: 0%;
   text-align: right;
   margin-top: 46px;
-  margin-left: 70px;
+
   color: rgba(0, 0, 0, 1);
   @media (min-width: 768px) and (max-width: 1199px) {
     font-size: 14px;
-    position: absolute;
-    top: 4495px;
-    right: 145px;
   }
   @media (min-width: 1200px) {
-    position: absolute;
-    top: 5060px;
-    right: 200px;
   }
 }
 .footer-span {
@@ -158,16 +149,11 @@
   list-style: none;
   padding: 0;
   margin-left: 147px;
-  @media (min-width: 768px) and (max-width: 1199px) {
+  @media (min-width: 768px) {
     gap: 30px;
-    position: absolute;
-    top: 4430px;
-    right: 145px;
+    margin-top: 0px;
   }
   @media (min-width: 1200px) {
-    position: absolute;
-    top: 5000px;
-    right: 200px;
   }
 }
 .footer-item-first {

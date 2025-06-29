@@ -1905,23 +1905,19 @@ li {
   background-color: #fff5f6;
   padding: 0px;
 }
-@media (min-width: 768px) and (max-width: 1199px) {
-  .footer {
-    padding: 0px;
-  }
-}
-@media (min-width: 1200px) {
-  .footer {
-    padding: 0px;
-  }
-}
 .footer .footer-content {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+@media (min-width: 768px) {
+  .footer .footer-content {
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
 .footer .footer-title {
-  margin-left: 20px;
   font-family: "Titan One";
   font-weight: 400;
   font-size: 18px;
@@ -1931,22 +1927,21 @@ li {
   margin-right: 68px;
   color: rgb(255, 165, 186);
 }
-@media (min-width: 768px) and (max-width: 1199px) {
+@media (min-width: 768px) {
   .footer .footer-title {
     font-size: 26px;
     letter-spacing: 4%;
-    margin-right: 396px;
+    margin-left: 0px;
   }
 }
 @media (min-width: 1200px) {
   .footer .footer-title {
     font-size: 30px;
     letter-spacing: 4%;
-    margin-right: 692px;
+    margin-bottom: 15px;
   }
 }
 .footer .footer-subtitle {
-  margin-left: 20px;
   font-family: "Titan One";
   font-weight: 400;
   font-size: 34px;
@@ -1954,22 +1949,18 @@ li {
   letter-spacing: 4%;
   text-transform: uppercase;
   color: rgb(212, 20, 67);
-  margin-right: 100px;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
   .footer .footer-subtitle {
     margin: 10px 0;
     font-size: 48px;
     letter-spacing: 6%;
-    margin-right: 396px;
-    margin-left: 20px;
   }
 }
 @media (min-width: 1200px) {
   .footer .footer-subtitle {
     font-size: 58px;
     letter-spacing: 6%;
-    margin-right: 692px;
   }
 }
 
@@ -1981,25 +1972,13 @@ li {
   letter-spacing: 0%;
   text-align: right;
   margin-top: 46px;
-  margin-left: 70px;
   color: rgb(0, 0, 0);
 }
 @media (min-width: 768px) and (max-width: 1199px) {
   .phone {
     font-size: 14px;
-    position: absolute;
-    top: 4495px;
-    right: 145px;
   }
 }
-@media (min-width: 1200px) {
-  .phone {
-    position: absolute;
-    top: 5060px;
-    right: 200px;
-  }
-}
-
 .footer-span {
   font-family: "DM Sans";
   font-weight: 700;
@@ -2087,22 +2066,12 @@ li {
   padding: 0;
   margin-left: 147px;
 }
-@media (min-width: 768px) and (max-width: 1199px) {
+@media (min-width: 768px) {
   .footer-list {
     gap: 30px;
-    position: absolute;
-    top: 4430px;
-    right: 145px;
+    margin-top: 0px;
   }
 }
-@media (min-width: 1200px) {
-  .footer-list {
-    position: absolute;
-    top: 5000px;
-    right: 200px;
-  }
-}
-
 .footer-item-first {
   display: inline-block;
   padding: 7px;
