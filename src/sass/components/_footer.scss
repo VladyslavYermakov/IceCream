@@ -10,7 +10,6 @@
   .footer-content {
     display: flex;
     flex-direction: column;
-    align-items: center;
     @media (min-width: 768px) {
       align-items: flex-start;
       flex-direction: row;
@@ -25,8 +24,9 @@
     line-height: 100%;
     letter-spacing: 0%;
     text-transform: uppercase;
-    margin-right: 68px;
     color: rgba(255, 165, 186, 1);
+    margin-right: 66px;
+    margin-bottom: 17px;
 
     @media (min-width: 768px) {
       font-size: 26px;
@@ -48,6 +48,7 @@
     letter-spacing: 4%;
     text-transform: uppercase;
     color: rgba(212, 20, 67, 1);
+    margin-right: 100px;
     @media (min-width: 768px) and (max-width: 1199px) {
       margin: 10px 0;
       font-size: 48px;
