@@ -56,10 +56,11 @@
   display: none;
   @media (min-width: 768px) and (max-width: 1199px) {
     display: inline-block;
-    position: absolute;
-    left: 540px;
+    margin-top: 15px;
+    position: relative;
+    left: 70px;
     font-family: 'DM Sans', sans-serif;
-    font-weightn: 700;
+    font-weight: 700;
     font-size: 13px;
     line-height: 100%;
     letter-spacing: 0%;
@@ -146,6 +147,9 @@
     display: none;
   }
   @media (min-width: 768px) and (max-width: 1199px) {
+    position: relative;
+    left: 250px;
+    margin-top: 15px;
   }
 }
 
