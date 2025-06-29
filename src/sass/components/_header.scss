@@ -142,6 +142,7 @@
     height: 100vh;
   }
 }
+<<<<<<< Updated upstream
 .header-menu-imgopn {
   @media (min-width: 1200px) {
     display: none;
@@ -151,6 +152,20 @@
     left: 250px;
     margin-top: 15px;
   }
+=======
+.header-menu-imgopn{
+position: relative;
+bottom: 85.2px;
+left: 225px;
+ @media (min-width: 1200px) {
+      display: none;
+    }
+    @media (min-width: 768px) and (max-width: 1199px) {
+  position: relative;
+margin-left: 245px;
+margin-top: 23px;
+    }
+>>>>>>> Stashed changes
 }
 
 .header-menu-close {

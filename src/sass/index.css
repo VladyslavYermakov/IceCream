@@ -239,8 +239,13 @@ li {
 @media (min-width: 768px) and (max-width: 1199px) {
   .header-menu-imgopn {
     position: relative;
+<<<<<<< Updated upstream
     left: 250px;
     margin-top: 15px;
+=======
+    margin-left: 245px;
+    margin-top: 23px;
+>>>>>>> Stashed changes
   }
 }
 
